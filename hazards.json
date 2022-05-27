@@ -1,0 +1,38 @@
+{
+    "$schema":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json",
+    "_meta": {
+        "sources":[
+            {
+                "abbreviation": "GOI",
+                "json": "GuildOfIcons",
+                "full": "Guild of Icons",
+                "version": "1.0.0"
+            }
+        ],
+        "dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+    },
+    "hazard": [
+        {
+            "name":"Stirge Hivemouth",
+            "source": "GuildOfIcons",
+            "trapHazType": "ENV",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Stirge spawner.",
+                    "entries": [
+                        "Each round, at initiative 20 (losing all ties), the Stirge Spawner creates one new Stirge Bloodletter in its space."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Collapsible.",
+                    "entries": [
+                        "If the hivemouth takes 10 or more points of damage in one round, it collapses, preventing it from using the Stirge spawner ability."
+                    ]
+                }
+            ]
+        }
+    ]
+}
