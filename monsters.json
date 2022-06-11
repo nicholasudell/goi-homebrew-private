@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.1",
+                "version": "1.0.2",
                 "authors": [
                     "Nick"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1653652069
+		"dateLastModified": 1654981202
     },
     "monster": [
 		{
@@ -2049,6 +2049,406 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Starborn Crackshot",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"starborn"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "20d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 11,
+			"int": 11,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+4",
+				"con": "+2"
+			},
+			"skill": {
+				"athletics": "+3",
+				"perception": "+2"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Starborn"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Polymer Armour",
+					"entries": [
+						"The starborn has advantage on saving throws to reduce or avoid cold, fire, and lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The starborn makes two Pulse Musket attacks."
+					]
+				},
+				{
+					"name": "Storm Gauntlet",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) thunder damage. Another enemy within 10 ft. takes 3 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Pulse Musket",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 2}) radiant damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Warpstep",
+					"entries": [
+						"The starborn fades through a cloak of stars, appearing in an unoccupied space it can see within 20 ft."
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L",
+				"R",
+				"T"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Starborn Vanguard",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"starborn"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 12,
+			"int": 11,
+			"wis": 9,
+			"cha": 10,
+			"save": {
+				"str": "+3",
+				"con": "+3"
+			},
+			"skill": {
+				"athletics": "+3",
+				"perception": "+1"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Starborn"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Polymer Armour",
+					"entries": [
+						"The starborn has advantage on saving throws to reduce or avoid cold, fire, and lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Storm Gauntlet",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) thunder damage. Another enemy within 10 ft. takes 3 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Pulse Cannon",
+					"entries": [
+						"The starborn fires a spread shot of superheated light in a 15-foot cone. Each creature in that area must make a {@dc 11} Dexterity saving throw, taking 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Warpstep",
+					"entries": [
+						"The starborn fades through a cloak of stars, appearing in an unoccupied space it can see within 20 ft."
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"damageTags": [
+				"L",
+				"R",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Starborn Sniper",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"starborn"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 70,
+				"formula": "20d8 - 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 9,
+			"int": 10,
+			"wis": 13,
+			"cha": 10,
+			"save": {
+				"str": "+2",
+				"con": "+1"
+			},
+			"skill": {
+				"athletics": "+2",
+				"perception": "+3"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Starborn"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Polymer Armour",
+					"entries": [
+						"The starborn has advantage on saving throws to reduce or avoid cold, fire, and lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pulse Arquebus",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/300 ft., one target. {@h}21 ({@damage 4d8 + 3}) radiant damage."
+					]
+				},
+				{
+					"name": "Overwatch",
+					"entries": [
+						"The starborn readies a shot for the right moment. When a creature they can see makes an attack or moves, they can use their reaction to make a Pulse Arquebus attack with advantage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Warpstep",
+					"entries": [
+						"The starborn fades through a cloak of stars, appearing in an unoccupied space it can see within 20 ft."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Overwatch Shot",
+					"entries": [
+						"The starborn makes a Pulse Arquebus attack with advantage. The starborn can only use this if they used the Overwatch action on their last turn."
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"damageTags": [
+				"R"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Starborn Captain",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"starborn"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "20d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 11,
+			"int": 13,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"str": "+5",
+				"con": "+2"
+			},
+			"skill": {
+				"athletics": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Starborn"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Polymer Armour",
+					"entries": [
+						"The starborn has advantage on saving throws to reduce or avoid cold, fire, and lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The starborn makes two Storm Gauntlet attacks."
+					]
+				},
+				{
+					"name": "Storm Gauntlet",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) thunder damage. Another enemy within 10 ft. takes 3 ({@damage 1d6}) lightning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Warpstep",
+					"entries": [
+						"The starborn fades through a cloak of stars, appearing in an unoccupied space it can see within 20 ft."
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L",
+				"T"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
+		
 	]
 }
