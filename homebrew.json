@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.3",
+                "version": "1.0.4",
                 "authors": [
                     "Nick"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1655315201
+		"dateLastModified": 1655326374
     },
 	"hazard": [
         {
@@ -39,6 +39,116 @@
             ]
         }
     ],
+	"item": [
+		{
+            "name": "Pulse Musket",
+            "source": "GuildOfIcons",
+            "type": "R",
+            "weaponCategory": "martial",
+            "property": [
+                "AF",
+                "RLD",
+                "2H"
+            ],
+            "range": "30/120",
+            "dmg1": "2d6",
+            "dmgType": "R",
+            "weapon": true,
+            "firearm": true,
+            "rarity": "rare",
+            "tier": "major",
+            "reload": 6,
+            "entries": [
+                {
+                    "type":"entries",
+                    "name":"Unstable.",
+                    "entries":[
+                        "Anybody who tries to use this weapon without firearms proficiency must roll a D6. On a 1 or a 2, the weapon explodes, dealing {@dice 3d6} radiant damage to the wielder."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pulse Arquebus",
+            "source": "GuildOfIcons",
+            "type": "R",
+            "weaponCategory": "martial",
+            "property": [
+                "AF",
+                "RLD",
+                "LD",
+                "2H"
+            ],
+            "range": "60/300",
+            "dmg1": "4d8",
+            "dmgType": "R",
+            "weapon": true,
+            "firearm": true,
+            "rarity": "rare",
+            "tier": "major",
+            "reload": 4,
+            "entries": [
+                {
+                    "type":"entries",
+                    "name":"Unstable.",
+                    "entries":[
+                        "Anybody who tries to use this weapon without firearms proficiency must roll a D6. On a 1 or a 2, the weapon explodes, dealing {@dice 3d6} radiant damage to the wielder."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pulse Cannon",
+            "source": "GuildOfIcons",
+            "tier": "major",
+            "rarity": "rare",
+            "wondrous": true,
+            "charges": 4,
+            "entries": [
+                "The Pulse Cannon starts with 4 charges. It does not regain charges.",
+                "As an action, you may expend any number of charges to fire a spread shot of superheated light in a 15-foot cone. Each creature in that area must make a DC 11 Dexterity saving throw, taking {@damage 4d6} radiant damage per charge spent on a failed save, or half as much damage on a successful one.",
+                "Firing the the Pulse Cannon has a X/6 chance of causing the weapon to explode, where X is the number of charges spent. The explosion deals {@damage 8d6} radiant damage to all creatures in a 20 foot radius sphere centered around the firer and destroys the Pulse Cannon.",
+                {
+                    "type":"entries",
+                    "name":"Unstable.",
+                    "entries":[
+                        "Anybody who tries to use the Pulse Cannon without firearms proficiency causes the weapon to explode, dealing {@damage 8d6} radiant damage to all creatures in a 20 foot radius sphere centered around the firer and destroys the Pulse Cannon."
+                    ]
+                }
+            ]
+        }
+	],
+	"variant": [
+		{
+            "name": "Polymer Armor",
+            "type": "GV",
+            "requires": 
+            [
+				{
+					"type": "MA"
+				},
+                {
+					"type": "HA"
+				}
+			],
+            "excludes": {
+				"name": "Hide Armor"
+			},
+            "inherits": 
+            {
+                "namePrefix": "Polymer ",
+                "source": "GuildOfIcons",
+                "page": 69,
+                "srd": false,
+                "rarity": "rare",
+                "reqAttune": false,
+                "entries": 
+                [
+                    "You have advantage on saving throws to reduce or avoid cold, fire, and lightning damage while wearing this armor."
+                ]
+            }
+        }
+	],
     "monster": [
 		{
 			"name": "Ansel \"Saltpeter\" Peters",
