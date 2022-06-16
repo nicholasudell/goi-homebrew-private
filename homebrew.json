@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.4",
+                "version": "1.0.5",
                 "authors": [
                     "Nick"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1655326374
+		"dateLastModified": 1655413969
     },
 	"hazard": [
         {
@@ -56,7 +56,7 @@
             "weapon": true,
             "firearm": true,
             "rarity": "rare",
-            "tier": "major",
+            "tier": "minor",
             "reload": 6,
             "entries": [
                 {
@@ -64,6 +64,13 @@
                     "name":"Unstable.",
                     "entries":[
                         "Anybody who tries to use this weapon without firearms proficiency must roll a D6. On a 1 or a 2, the weapon explodes, dealing {@dice 3d6} radiant damage to the wielder."
+                    ]
+                },
+				{
+                    "type":"entries",
+                    "name":"Diminished item.",
+                    "entries":[
+                        "Finding some way to create new ammunition for this weapon increases its tier to major."
                     ]
                 }
             ]
@@ -85,7 +92,7 @@
             "weapon": true,
             "firearm": true,
             "rarity": "rare",
-            "tier": "major",
+            "tier": "minor",
             "reload": 4,
             "entries": [
                 {
@@ -94,13 +101,20 @@
                     "entries":[
                         "Anybody who tries to use this weapon without firearms proficiency must roll a D6. On a 1 or a 2, the weapon explodes, dealing {@dice 3d6} radiant damage to the wielder."
                     ]
+                },
+				{
+                    "type":"entries",
+                    "name":"Diminished item.",
+                    "entries":[
+                        "Finding some way to create new ammunition for this weapon increases its tier to major."
+                    ]
                 }
             ]
         },
         {
             "name": "Pulse Cannon",
             "source": "GuildOfIcons",
-            "tier": "major",
+            "tier": "minor",
             "rarity": "rare",
             "wondrous": true,
             "charges": 4,
@@ -114,7 +128,109 @@
                     "entries":[
                         "Anybody who tries to use the Pulse Cannon without firearms proficiency causes the weapon to explode, dealing {@damage 8d6} radiant damage to all creatures in a 20 foot radius sphere centered around the firer and destroys the Pulse Cannon."
                     ]
+                },
+				{
+                    "type":"entries",
+                    "name":"Diminished item.",
+                    "entries":[
+                        "Finding some way to recharge this item increases its tier to major."
+                    ]
                 }
+            ]
+        },
+		{
+            "name": "Perfect Mirror Metal Cube",
+            "source": "GuildOfIcons",
+            "tier": "major",
+            "rarity": "rare",
+            "wondrous": true,
+            "charges": 36,
+            "entries": [
+                "This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d10 expended charges daily at dawn.",
+                "You can use an action to press one of the cube's faces. Each face has a different effect as shown in the Cube Faces table. If the cube has insufficient charges remaining, nothing happens.",
+                "Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for one minute, until you use an action to press the cube's sixth face, or the cube runs out of charges.",
+				"At the end of each of your turns, while the barrier is active, the cube loses charges based on the chosen face, as shown in the Cube Faces table.",
+				"You can change the barrier's effect by pressing a different face of the cube, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.",
+				{
+					"type": "table",
+					"caption": "Perfect Mirror Metal Cube Faces",
+					"colLabels": [
+						"Face",
+						"Charges per turn",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-1 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"1",
+							"Gases, wind, and fog can't pass through the barrier."
+						],
+						[
+							"2",
+							"2",
+							"Nonliving matter can't pass through the barrier. Walls, floors, and ceilings can pass through at your discretion."
+						],
+						[
+							"3",
+							"3",
+							"Living matter can't pass through the barrier."
+						],
+						[
+							"4",
+							"4",
+							"Spell effects can't pass through the barrier."
+						],
+						[
+							"5",
+							"5",
+							"Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion."
+						],
+						[
+							"6",
+							"0",
+							"The barrier deactivates."
+						]
+					]
+				},
+				"The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Spell or item",
+						"Charges Lost"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@spell Disintegrate}",
+							"{@dice 1d12}"
+						],
+						[
+							"{@item Horn of blasting}",
+							"{@dice 1d10}"
+						],
+						[
+							"{@spell Passwall}",
+							"{@dice 1d6}"
+						],
+						[
+							"{@spell Prismatic spray}",
+							"{@dice 1d20}"
+						],
+						[
+							"{@spell Wall of fire}",
+							"{@dice 1d4}"
+						]
+					]
+				}
             ]
         }
 	],
@@ -150,6 +266,213 @@
         }
 	],
     "monster": [
+		{
+			"name": "Thunderous Jelly",
+			"source": "GuildOfIcons",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 15,
+			"dex": 6,
+			"con": 14,
+			"int": 2,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"lightning",
+				"slashing",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The jelly can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage plus 3 ({@damage 1d6}) acid damage."
+					]
+				},
+				{
+					"name": "Thundersphere",
+					"entries": [
+						"A wave of thunderous force sweeps out from the jelly. Each creature in a 15-foot sphere originating from the jelly must make a {@dc 12} Constitution saving throw. On a failed save, a creature takes 9 ({@damage 2d8}) thunder damage and is pushed 10 feet away from the jelly. On a successful save, the creature takes half as much damage and isn't pushed.",
+						"In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from the jelly, and the jelly emits a thunderous boom audible out to 300 feet."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jelly if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jelly are one size smaller than the original jelly."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Silent Jelly",
+			"source": "GuildOfIcons",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 15,
+			"dex": 6,
+			"con": 14,
+			"int": 2,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"lightning",
+				"slashing",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The jelly can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Transparent",
+					"entries": [
+						"Even when the jelly is in plain sight, it takes a successful {@dc 15} Wisdom (Perception) check to spot a jelly that has neither moved nor attacked. A creature that tries to enter the jelly's space while unaware of the jelly is surprised by the jelly."
+					]
+				},
+				{
+					"name": "Silent Sphere",
+					"entries": [
+						"No sound can be created within or pass through a 20 foot radius sphere centred on the jelly. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage plus 3 ({@damage 1d6}) acid damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jelly if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jelly are one size smaller than the original jelly."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
 		{
 			"name": "Ansel \"Saltpeter\" Peters",
 			"isNamedCreature": true,
