@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1656769423
+		"dateLastModified": 1657828603
     },
 	"hazard": [
         {
@@ -1835,6 +1835,433 @@
 				"P"
 			],
 			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Mirror Metal Golem (Guardian Configuration)",
+			"source": "GuildOfIcons",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 252,
+				"formula": "24d10 + 120"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"save": {
+				"str": "+12",
+				"con": "+10"
+			},
+			"skill": {
+				"perception": "+5",
+				"survival": "+5"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"fire",
+				"lightning",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The golem's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Magic Reflection",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects. If the golem passes a saving throw for a spell with a single target or a line area of effect, the spell is reflected back to the attacker."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the golem fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes two Slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Soporific Breath {@recharge 5}",
+					"entries": [
+						"The golem exhales sleeping gas in a 15-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw, falling asleep on a failed save."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Slam",
+					"entries": [
+						"The golem makes one Slam attack."
+					]
+				},
+				{
+					"name": "Detect",
+					"entries": [
+						"The golem makes a Wisdom (Perception) check."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Legendary Resistances",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Mirror Metal Golem (War Configuration)",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 213,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 24,
+			"dex": 11,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"save": {
+				"str": "+13",
+				"con": "+10"
+			},
+			"skill": {
+				"perception": "+5",
+				"survival": "+5"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"fire",
+				"lightning",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The golem's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Magic Reflection",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects. If the golem passes a saving throw for a spell with a single target or a line area of effect, the spell is reflected back to the attacker."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes three Crystalline Sword attacks."
+					]
+				},
+				{
+					"name": "Crystalline Sword (Lunge)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., all targets in a line originating from the Golem. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Crystalline Sword (Sweep)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., all targets in reach. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Ice Breath {@recharge 5}",
+					"entries": [
+						"The golem exhales freezing gas in a 15-foot cone. Each creature in that area must make a {@dc 17} Constitution saving throw, taking 27 ({@damage 6d8}) cold damage and being {@condition restrained} by ice on a failed save, or half as much damage and unrestrained on a success. A creature {@condition restrained} by ice can use an action to break free from the ice. Dealing 10 points of damage to a {@condition restrained} creature (or half that if it is fire damage) frees them."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"C"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Mirror Metal Golem (Scout Configuration)",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 13,
+			"con": 14,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"save": {
+				"str": "+9",
+				"con": "+6"
+			},
+			"skill": {
+				"perception": "+4",
+				"athletics": "+9"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"fire",
+				"lightning",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The golem's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Magic Reflection",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects. If the golem passes a saving throw for a spell with a single target or a line area of effect, the spell is reflected back to the attacker."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes two Bodyslam attacks."
+					]
+				},
+				{
+					"name": "Bodyslam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the golem has moved at least 10ft. this turn, the damage increases to 25 ({@dice 4d8 + 7})"
+					]
+				},
+				{
+					"name": "Invigorating Breath {@recharge 5}",
+					"entries": [
+						"The golem exhales invigorating gas in a 15-foot cone. Each creature the golem chooses in the area are affected as if by the {@spell Haste} spell."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"AOE",
 				"MW"
 			]
 		},
