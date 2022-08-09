@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1660068672
+		"dateLastModified": 1660070289
     },
 	"hazard": [
         {
@@ -287,7 +287,12 @@
 				"A"
 			],
 			"ac": [
-				10
+				10,
+				{
+					"ac": 13,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
 			],
 			"hp": {
 				"average": 143,
