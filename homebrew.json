@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1657828603
+		"dateLastModified": 1660068672
     },
 	"hazard": [
         {
@@ -270,6 +270,116 @@
 				"MW"
 			]
 		},
+		{
+			"name": "Qa'ria Cad-Elan",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 143,
+				"formula": "22d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 16,
+			"wis": 8,
+			"cha": 11,
+			"save": {
+				"str": "+6",
+				"int": "+7"
+			},
+			"skill": {
+				"arcana": "+7",
+				"deception": "+4"
+			},
+			"passive": 9,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The war mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}) At will: blade ward, message"
+					],
+					"daily": {
+						"1": [
+							"{@spell globe of invulnerability}"
+						],
+						"2e": [
+							"{@spell counterspell}",
+							"{@spell shield}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Tactical Wit",
+					"entries": [
+						"The war mage adds their Intelligence modifier to initiative rolls."
+					]
+				},
+				{
+					"name": "Durable Magic",
+					"entries": [
+						"The war mage has +2 to AC and all saving throws while concentrating on a spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sword Burst",
+					"entries": [
+						"All creatures within 5ft. of the war mage must make a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) force damage."
+					]
+				},
+				{
+					"name": "Steel Wind Strike {@recharge 4}",
+					"entries": [
+						"The war mage flourishes their weapon and vanishes to strike like the wind. Choose up to five creatures you can see within 30 ft. and make a melee spell attack ({@hit 7} to hit) against each target. On a hit, a target takes 33 ({@damage 6d10}) force damage.",
+						"You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Arcane Deflection",
+					"entries": [
+						"When the war mage is hit by an attack or fails a saving throw, they can use their reaction to gain a +2 bonus to their AC against that attack or a +4 bonus to that saving throw. Up to three creatures of their choice that they can see within 60 ft. take 6 force damage.",
+						"When the war mage uses this feature, they can't cast spells other than cantrips until the end of their next turn."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"O"
+			]
+		},		
 		{
 			"name": "Silent Jelly",
 			"source": "GuildOfIcons",
