@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1660070289
+		"dateLastModified": 1660255277
     },
 	"hazard": [
         {
@@ -3347,6 +3347,154 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Alana, Drow Inquisitor",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"cleric",
+					"elf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 149,
+				"formula": "23d8 + 46"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 14,
+			"int": 16,
+			"wis": 21,
+			"cha": 20,
+			"save": {
+				"con": "+7",
+				"wis": "+10",
+				"cha": "+10"
+			},
+			"skill": {
+				"insight": "+10",
+				"perception": "+10",
+				"religion": "+8",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"any one language (usually Common)",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Alana casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 18}) At will: detect magic, message"
+					],
+					"daily": {
+						"1": [
+							"{@spell banishment}",
+							"{@spell true seeing}"
+						],
+						"2e": [
+							"{@spell silence}",
+							"{@spell dispel magic}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discern Lie",
+					"entries": [
+						"The drow discerns when a creature in earshot speaks a lie in a language the drow knows."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Alana has advantage on saving throws against being {@condition charmed}, and magic can't put Alana to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the Alana has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Alana makes three attacks with her Poison-coated Short Sword.",
+						"Poison-coated Short Sword. Melee Weapon Attack: {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 18 ({@damage 4d8}) poison damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Spectral Dagger (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The drow conjures a floating, spectral dagger within 60 feet of itself. The drow can make a melee spell attack ({@hit 10} to hit) against one creature within 5 feet of the dagger. On a hit, the target takes 9 ({@damage 1d8 + 5}) force damage.",
+						"The dagger lasts for 1 minute. As a bonus action on later turns, the drow can move the dagger up to 20 feet and repeat the attack against one creature within 5 feet of the dagger."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"U",
+				"X"
+			],
+			"damageTags": [
+				"I",
+				"O",
+				"P"
+			],
+			"conditionInflictSpell": [
+				"deafened",
+				"incapacitated"
 			]
 		}
 		
