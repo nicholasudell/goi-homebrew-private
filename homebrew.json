@@ -39,6 +39,106 @@
             ]
         }
     ],
+	"condition": [
+		{
+			"name": "Abhorrence",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"entries": [
+				"A creature with Abhorrence has been subjected to the unknowable. It could be forbidden lore from eldritch tomes, the psyche of an aberration, or visions of the far plane. An effect can give a creature one or more levels of Abhorrence.",
+				"At the start of their turn, a creature with Abhorrence must make a Wisdom saving throw, the DC is 10 plus the level of Abhorrence they have. On a success, they reduce their Abhorrence by 1. On a failure, the DM rolls a {@dice d10} or picks one effect from the table below. The effect lasts until the start of the creature's next turn.",
+				"Outside of initiative, a character with Abhorrence making an ability check must also make a save against Abhorrence.",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d10}",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"The character is assailed by alien concepts and is paralyzed. The effect ends if the creature takes any damage."
+						],
+						[
+							"2",
+							"The character’s mind is overloaded by witnessing the layers of reality fold over themselves. They are stunned."
+						],
+						[
+							"3",
+							"The character is blinded by visions of a dark majesty too beautiful to comprehend."
+						],
+						[
+							"4",
+							"The character is deafened by a cacophony of extra-stellar winds that howl in their ears."
+						],
+						[
+							"5",
+							"The character becomes Frightened by all creatures around them. They must spend their action dashing as far away from any creatures as they can."
+						],
+						[
+							"6",
+							"The character’s perception of friend and foe is swapped. They see their friends as enemies and vice versa."
+						],
+						[
+							"7",
+							"The character sees hostile aberrations in the folding layers of reality around them. They are unable to tell friend from foe and must spend their turn attacking the nearest creature, whether it is friend or foe."
+						],
+						[
+							"8",
+							"The character is Silenced as if by the {@spell Silence} spell."
+						],
+						[
+							"9",
+							"The character immediately drinks one potion from their inventory or, if they have no potions, uses one spell scroll."
+						],
+						[
+							"10",
+							"The character falls asleep. They are {@condition Unconscious} until damaged or shaken awake by another character."
+						]
+					]
+				},
+				"If an already abhorred creature suffers another effect that causes abhorrence, its current level of abhorrence increases by the amount specified in the effect's description.",
+				"An effect that removes abhorrence reduces its level as specified in the effect's description, with all abhorrence effects ending if a creature's abhorrence level is reduced below 1.",
+				"Creatures lose all stacks of Abhorrence when they complete a short or long rest."
+			]
+		}
+	],
+	"cult": [
+		{
+			"name": "Cult Imperator - Incipio Branch",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"type": "Demonic",
+			"entries": [
+				"The Incipio branch focuses on contacting powerful aberrations and either dominating them to their purposes or entering in arrangements with them in exchange for power. They are more likely to contain warlocks amongst their midst and seek out the forgotten horrors of the world.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Unknowable",
+							"entries": [
+								"The cultist is shielded from telepathy, scrying, and mind reading."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Unknowable (1/SR)",
+							"entries": [
+								"As a bonus action, the cultist telepathically whispers forbidden lore into the mind of one target. The target gains 3 {@condition Abhorrence|GuildOfIcons}."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
 	"item": [
 		{
             "name": "Perfect Mirror Metal Cube",
@@ -3252,6 +3352,90 @@
 				"RW"
 			]
 		},
+		{
+			"name": "Vintage",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"warrior lvl 1"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 5,
+				"formula": "1d8 + 1"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"save": {
+				"con": "+3"
+			},
+			"skill": {
+				"animal handling": "+3",
+				"perception": "+3",
+				"survival": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Woof"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"Vintage has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Attac",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Protecc",
+					"entries": [
+						"Vintage can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't Vintage, provided Vintage can see the attacker."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},		
 		{
 			"name": "Starborn Captain",
 			"source": "GuildOfIcons",
