@@ -371,6 +371,124 @@
 			]
 		},
 		{
+			"name": "Cantlorian Transmuter Apprentice",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 11,
+			"int": 16,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+5",
+				"cha": "+2"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"will": [
+						"{@spell light}",
+						"{@spell message}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell mage armor}",
+							"{@spell hold person}",
+							"{@spell fireball}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Cantlorian Transmuter Apprentice makes two unarmed strikes."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage or more if the creature has used its Transmute ability again."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Transmute {@recharge 4}",
+					"entries": [
+						"The Transmuter alters its physical form. It grows claws, fangs, spines, or horns. Its unarmed strikes deal 3 ({@damage 1d6}) bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon it chooses. The natural weapon is magic and grants a +1 bonus to the attack and damage rolls. Each time it uses this feature after the first, the damage increases by 3 ({@dice 1d6})."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"E"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			]
+		},
+		{
 			"name": "Qa'ria Cad-Elan",
 			"source": "GuildOfIcons",
 			"page": 0,
