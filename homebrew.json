@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1668092417
+		"dateLastModified": 1668105115
     },
 	"hazard": [
         {
@@ -67,7 +67,7 @@
 						],
 						[
 							"2",
-							"The character’s mind is overloaded by witnessing the layers of reality fold over themselves. They are stunned."
+							"The character becomes suddenly attached to the nearest creature. They must use their action to grapple the creature, and will not relinquish the grapple willingly until the start of their next turn."
 						],
 						[
 							"3",
@@ -83,7 +83,7 @@
 						],
 						[
 							"6",
-							"The character’s perception of friend and foe is swapped. They see their friends as enemies and vice versa."
+							"The character sees that which reviles them most in their hands. They immediately throw everything they are holding at least 10 ft. away from them."
 						],
 						[
 							"7",
