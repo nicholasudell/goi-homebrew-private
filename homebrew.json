@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1668105115
+		"dateLastModified": 1668798066
     },
 	"hazard": [
         {
@@ -39,106 +39,6 @@
             ]
         }
     ],
-	"condition": [
-		{
-			"name": "Abhorrence",
-			"source": "GuildOfIcons",
-			"page": 0,
-			"srd": false,
-			"basicRules": false,
-			"entries": [
-				"A creature with Abhorrence has been subjected to the unknowable. It could be forbidden lore from eldritch tomes, the psyche of an aberration, or visions of the far plane. An effect can give a creature one or more levels of Abhorrence.",
-				"At the start of their turn, a creature with Abhorrence must make a Wisdom saving throw, the DC is 10 plus the level of Abhorrence they have. On a success, they reduce their Abhorrence by 1. On a failure, the DM rolls a {@dice d10} or picks one effect from the table below. The effect lasts until the start of the creature's next turn.",
-				"Outside of initiative, a character with Abhorrence making an ability check must also make a save against Abhorrence.",
-				{
-					"type": "table",
-					"colLabels": [
-						"{@dice d10}",
-						"Effect"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"1",
-							"The character is assailed by alien concepts and is paralyzed. The effect ends if the creature takes any damage."
-						],
-						[
-							"2",
-							"The character becomes suddenly attached to the nearest creature. They must use their action to grapple the creature, and will not relinquish the grapple willingly until the start of their next turn."
-						],
-						[
-							"3",
-							"The character is blinded by visions of a dark majesty too beautiful to comprehend."
-						],
-						[
-							"4",
-							"The character is deafened by a cacophony of extra-stellar winds that howl in their ears."
-						],
-						[
-							"5",
-							"The character becomes Frightened by all creatures around them. They must spend their action dashing as far away from any creatures as they can."
-						],
-						[
-							"6",
-							"The character sees that which reviles them most in their hands. They immediately throw everything they are holding at least 10 ft. away from them."
-						],
-						[
-							"7",
-							"The character sees hostile aberrations in the folding layers of reality around them. They are unable to tell friend from foe and must spend their turn attacking the nearest creature, whether it is friend or foe."
-						],
-						[
-							"8",
-							"The character is Silenced as if by the {@spell Silence} spell."
-						],
-						[
-							"9",
-							"The character immediately drinks one potion from their inventory or, if they have no potions, uses one spell scroll."
-						],
-						[
-							"10",
-							"The character falls asleep. They are {@condition Unconscious} until damaged or shaken awake by another character."
-						]
-					]
-				},
-				"If an already abhorred creature suffers another effect that causes abhorrence, its current level of abhorrence increases by the amount specified in the effect's description.",
-				"An effect that removes abhorrence reduces its level as specified in the effect's description, with all abhorrence effects ending if a creature's abhorrence level is reduced below 1.",
-				"Creatures lose all stacks of Abhorrence when they complete a short or long rest."
-			]
-		}
-	],
-	"cult": [
-		{
-			"name": "Cult Imperator - Incipio Branch",
-			"source": "GuildOfIcons",
-			"page": 0,
-			"type": "Demonic",
-			"entries": [
-				"The Incipio branch focuses on contacting powerful aberrations and either dominating them to their purposes or entering in arrangements with them in exchange for power. They are more likely to contain warlocks amongst their midst and seek out the forgotten horrors of the world.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Unknowable",
-							"entries": [
-								"The cultist is shielded from telepathy, scrying, and mind reading."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Unknowable (1/SR)",
-							"entries": [
-								"As a bonus action, the cultist telepathically whispers forbidden lore into the mind of one target. The target gains 3 {@condition Abhorrence|GuildOfIcons}."
-							]
-						}
-					]
-				}
-			]
-		}
-	],
 	"item": [
 		{
             "name": "Perfect Mirror Metal Cube",
