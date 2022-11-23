@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1668798066
+		"dateLastModified": 1669222090
     },
 	"hazard": [
         {
@@ -168,6 +168,146 @@
         }
 	],
     "monster": [
+		{
+			"name": "Zilx - Fontaine's Chosen",
+			"source": "",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kobold"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d6 + 10"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 15
+			},
+			"str": 7,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 15,
+			"cha": 8,
+			"save": {
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"religion": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 10 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"petrified"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Sunbaked King",
+					"entries": [
+						"This Kobold is immune to Sunlight Sensitivity"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kobold uses its Meld Through Stone and then makes three attacks with its Scimitar."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Meld Through Stone",
+					"entries": [
+						"The kobold steps into the rock and appears at another location on the pillar within 120 ft. This movement does not provoke opportunity attacks."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The kobold can take one villain action per round at the end of another player's turn. Each action is coded to a round and should be used then."
+			],
+			"legendary": [
+				{
+					"name": "Round 1:",
+					"entries": [
+						"Shape the Earth. The kobold forms the stone around one creature, creating horizontal walls of rock around them. That creature can make a {@dc 12} Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall."
+					]
+				},
+				{
+					"name": "Round 2:",
+					"entries": [
+						"All Is Dust. The kobold pulls a cloud of dust from the pillar. Choose a point within 120 ft. A 20 ft. cloud of dust appears, obscuring the sunlight for creatures inside it, and acting like the {@spell Fog Cloud} spell without concentration.",
+						"The Fog dissipates at the end of round 3."
+					]
+				},
+				{
+					"name": "Round 3:",
+					"entries": [
+						"Tremorshock. The kobold shakes the entire pillar with earth magic. All creatures on the pillar must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+						"Prone creatures fall."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
 		{
 			"name": "Thunderous Jelly",
 			"source": "GuildOfIcons",
