@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1669222564
+		"dateLastModified": 1669222677
     },
 	"hazard": [
         {
@@ -264,22 +264,22 @@
 			],
 			"legendary": [
 				{
-					"name": "Round 1:",
+					"name": "Round 1: Shape the Earth.",
 					"entries": [
-						"Shape the Earth. The kobold forms the stone around one creature, creating horizontal walls of rock around them. That creature can make a {@dc 12} Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall."
+						"The kobold forms the stone around one creature, creating horizontal walls of rock around them. That creature can make a {@dc 12} Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall."
 					]
 				},
 				{
-					"name": "Round 2:",
+					"name": "Round 2: All Is Dust.",
 					"entries": [
-						"All Is Dust. The kobold pulls a cloud of dust from the pillar. Choose a point within 120 ft. A 20 ft. cloud of dust appears, obscuring the sunlight for creatures inside it, and acting like the {@spell Fog Cloud} spell without concentration.",
+						"The kobold pulls a cloud of dust from the pillar. Choose a point within 120 ft. A 20 ft. cloud of dust appears, obscuring the sunlight for creatures inside it, and acting like the {@spell Fog Cloud} spell without concentration.",
 						"The Fog dissipates at the end of round 3."
 					]
 				},
 				{
-					"name": "Round 3:",
+					"name": "Round 3: Tremorshock.",
 					"entries": [
-						"Tremorshock. The kobold shakes the entire pillar with earth magic. All creatures on the pillar must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+						"The kobold shakes the entire pillar with earth magic. All creatures on the pillar must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
 						"Prone creatures fall."
 					]
 				}
