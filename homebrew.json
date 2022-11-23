@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1669222090
+		"dateLastModified": 1669222564
     },
 	"hazard": [
         {
@@ -170,7 +170,7 @@
     "monster": [
 		{
 			"name": "Zilx - Fontaine's Chosen",
-			"source": "",
+			"source": "GuildOfIcons",
 			"page": 0,
 			"size": [
 				"S"
