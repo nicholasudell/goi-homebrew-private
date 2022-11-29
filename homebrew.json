@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1669222677
+		"dateLastModified": 1669760556
     },
 	"hazard": [
         {
@@ -168,6 +168,107 @@
         }
 	],
     "monster": [
+		{
+			"name": "The Predator of Airedale Forest",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 16,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+6"
+			},
+			"skill": {
+				"perception": "+3",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the predator has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the predator scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the predator is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Displacement",
+					"entries": [
+						"The predator projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is {@condition incapacitated} or has a speed of 0."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The predator makes two tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage plus 2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. _Hit:_5 ({@damage 1d6 + 2}) piercing damage.",
+						"Once per turn, if the predator moved at least 10 ft. straight toward the target on the same turn, the target takes an extra 3 ({@damage 1d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the predator can make another Bite attack against it as a bonus action."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},		
 		{
 			"name": "Zilx - Fontaine's Chosen",
 			"source": "GuildOfIcons",
