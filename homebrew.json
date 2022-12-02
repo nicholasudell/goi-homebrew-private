@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1669760862
+		"dateLastModified": 1669988893
     },
 	"hazard": [
         {
@@ -211,6 +211,12 @@
 			"cr": "3",
 			"trait": [
 				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the predator fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
 					"name": "Assassinate",
 					"entries": [
 						"During its first turn, the predator has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the predator scores against a surprised creature is a critical hit."
@@ -247,6 +253,17 @@
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.",
 						"Once per turn, if the predator moved at least 10 ft. straight toward the target on the same turn, the target takes an extra 3 ({@damage 1d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the predator can make another Bite attack against it as a bonus action."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The predator can take one legendary action per round at the end of another player's turn."
+			],
+			"legendary": [
+				{
+					"name": "Hide",
+					"entries": [
+						"The predator takes the Hide action."
 					]
 				}
 			],
