@@ -1,5 +1,4 @@
 {
-    "$schema":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json",
     "_meta": {
         "sources":[
             {
@@ -14,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1669988893
+		"dateLastModified": 1675684778
     },
 	"hazard": [
         {
@@ -136,7 +135,7 @@
             ]
         }
 	],
-	"variant": [
+	"magicvariant": [
 		{
             "name": "Polymer Armor",
             "type": "GV",
@@ -577,6 +576,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The Transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -699,6 +699,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The war mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}) At will: blade ward, message"
 					],
@@ -3791,6 +3792,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Alana casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 18}) At will: detect magic, message"
 					],
