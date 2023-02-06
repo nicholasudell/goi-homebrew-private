@@ -5,7 +5,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.5",
+                "version": "1.0.10",
                 "authors": [
                     "Nick"
                 ],
@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1675684778
+		"dateLastModified": 1675685179
     },
 	"hazard": [
         {
