@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1675813410
+		"dateLastModified": 1675813884
     },
 	"hazard": [
         {
@@ -202,7 +202,7 @@
 			]
 		},
 		{
-			"name": "9 of Cups",
+			"name": "Nine of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -219,7 +219,7 @@
 			]
 		},
 		{
-			"name": "10 of Cups",
+			"name": "Ten of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"name": "3 of Cups",
+			"name": "Three of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -253,7 +253,7 @@
 			]
 		},
 		{
-			"name": "4 of Cups",
+			"name": "Four of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -270,7 +270,7 @@
 			]
 		},
 		{
-			"name": "5 of Cups",
+			"name": "Five of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -287,7 +287,7 @@
 			]
 		},
 		{
-			"name": "6 of Cups",
+			"name": "Six of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -317,7 +317,7 @@
 			]
 		},
 		{
-			"name": "7 of Cups",
+			"name": "Seven of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -334,7 +334,7 @@
 			]
 		},
 		{
-			"name": "8 of Cups",
+			"name": "Eight of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -402,7 +402,7 @@
 			]
 		},
 		{
-			"name": "2 of Cups",
+			"name": "Two of Cups",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -436,7 +436,7 @@
 			]
 		},
 		{
-			"name": "2 of Wands",
+			"name": "Two of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -518,7 +518,7 @@
 			]
 		},
 		{
-			"name": "3 of Wands",
+			"name": "Three of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -535,7 +535,7 @@
 			]
 		},
 		{
-			"name": "4 of Wands",
+			"name": "Four of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -552,7 +552,7 @@
 			]
 		},
 		{
-			"name": "5 of Wands",
+			"name": "Five of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -569,7 +569,7 @@
 			]
 		},
 		{
-			"name": "6 of Wands",
+			"name": "Six of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -586,7 +586,7 @@
 			]
 		},
 		{
-			"name": "7 of Wands",
+			"name": "Seven of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -603,7 +603,7 @@
 			]
 		},
 		{
-			"name": "8 of Wands",
+			"name": "Eight of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -620,7 +620,7 @@
 			]
 		},
 		{
-			"name": "9 of Wands",
+			"name": "Nine of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -637,7 +637,7 @@
 			]
 		},
 		{
-			"name": "10 of Wands",
+			"name": "Ten of Wands",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -739,7 +739,7 @@
 			]
 		},
 		{
-			"name": "2 of Swords",
+			"name": "Two of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -756,7 +756,7 @@
 			]
 		},
 		{
-			"name": "3 of Swords",
+			"name": "Three of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -773,7 +773,7 @@
 			]
 		},
 		{
-			"name": "4 of Swords",
+			"name": "Four of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -790,7 +790,7 @@
 			]
 		},
 		{
-			"name": "5 of Swords",
+			"name": "Five of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -807,7 +807,7 @@
 			]
 		},
 		{
-			"name": "6 of Swords",
+			"name": "Six of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -824,7 +824,7 @@
 			]
 		},
 		{
-			"name": "7 of Swords",
+			"name": "Seven of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -841,7 +841,7 @@
 			]
 		},
 		{
-			"name": "8 of Swords",
+			"name": "Eight of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -858,7 +858,7 @@
 			]
 		},
 		{
-			"name": "9 of Swords",
+			"name": "Nine of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
@@ -875,7 +875,7 @@
 			]
 		},
 		{
-			"name": "10 of Swords",
+			"name": "Ten of Swords",
 			"source": "GuildOfIcons",
 			"set": "Tarot of Encounters",
 			"face": {
