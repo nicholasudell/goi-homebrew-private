@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1675795773
+		"dateLastModified": 1675795912
     },
 	"hazard": [
         {
@@ -220,7 +220,11 @@
 				},
 				"width": 411,
 				"height": 561
-			}
+			},
+			"entries": [
+				"Tarot of Encounters"
+			],
+			"hasCardArt": false
 		}
 	],
     "monster": [
