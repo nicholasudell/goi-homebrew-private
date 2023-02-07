@@ -166,6 +166,66 @@
             }
         }
 	],
+	"card": [
+		{
+			"name": "King of Cups",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+				},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"Eladrin scientist and trader Kalassir d’Oberan’s carriage of wonders has broken down on the side of the road. In exchange for helping them right their carriage and fix the wheel, they will offer to “augment” a non-magical item for each character, using the artificer infusions. This will last until their next long rest. They also sell contraptions like hunting traps, caltrops, etc. The tinkering lasts until the end of the next long rest."
+			]
+		},
+		{
+			"name": "Queen of Cups",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+				},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"The Face of Lulles, a large shard of mirror metal, embedded in a rock. The party may peer through the mirror to see their future. They each see one different quest hook. They each can roll a D20 and use it as a portent. The portent lasts until their next long rest."
+			]
+		}
+	],
+	"deck": [
+		{
+			"name": "Tarot of Encounters",
+			"source": "GuildOfIcons",
+			"srd":false,
+			"hasCardArt": false,
+			"back": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/back.webp"
+				},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"Tarot of Encounters"
+			],
+			"cards": [
+				"King of Cups|Tarot of Encounters|GuildOfIcons",
+				"Queen of Cups|Tarot of Encounters|GuildOfIcons"
+			]
+		}
+	],
     "monster": [
 		{
 			"name": "The Predator of Airedale Forest",
