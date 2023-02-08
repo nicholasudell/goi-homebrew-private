@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1675813955
+		"dateLastModified": 1675883530
     },
 	"hazard": [
         {
@@ -215,7 +215,7 @@
 				"height": 561
 			},
 			"entries": [
-				"Victory, well-being. An old, crumbling church to Morion with a font of life-blessed water, and an inscription saying “Rest here and be safe. Drink here and be welcomed. Take from here and taste naught but ash.” Drinking the water from the font heals 2d4+4 hitpoints. Removing water from the font ends the enchantment on the font and deals 2d8+8 necrotic damage to anybody who drank from the font that day. The church then crumbles around them, perhaps on top of them."
+				"An old, crumbling church to Morion with a font of life-blessed water, and an inscription saying “Rest here and be safe. Drink here and be welcomed. Take from here and taste naught but ash.” Drinking the water from the font heals 2d4+4 hitpoints. Removing water from the font ends the enchantment on the font and deals 2d8+8 necrotic damage to anybody who drank from the font that day. The church then crumbles around them, perhaps on top of them."
 			]
 		},
 		{
@@ -232,7 +232,7 @@
 				"height": 561
 			},
 			"entries": [
-				"Contentment, perfection. A beautiful crystal statue in a lush rose garden, no matter the environment, surrounded by other crystal statues. All within a mile a drawn to it. It sings beautiful song that charms people. Upon arrival, it animates and demands fealty from those who approach, and that fealty is in perfection. Those who agree are turned to crystal and petrified, those who do not are attacked. Has animated armor statistics. Once destroyed, all statues return to life."
+				"A beautiful crystal statue in a lush rose garden, no matter the environment, surrounded by other crystal statues. All within a mile a drawn to it. It sings beautiful song that charms people. Upon arrival, it animates and demands fealty from those who approach, and that fealty is in perfection. Those who agree are turned to crystal and petrified, those who do not are attacked. Has animated armor statistics. Once destroyed, all statues return to life."
 			]
 		},
 		{
@@ -302,7 +302,7 @@
 			"entries": [
 				"A ruined village with nothing left but foundations. Ghosts inhabit the town and they do not know they are dead. They greet the party as if nothing is wrong. Their minds refuse to accept they are ghosts. They are kept here by an item. They feel compelled to defend it, but sanctifying the item in some way will allow them to move on. Sanctifying the item earns a major boon from Morion.",
 				{
-					"type": "statblockinline",
+					"type": "statblockInline",
 					"dataType": "boon",
 					"data": {
 						"name": "Major Boon of Morion",
@@ -451,7 +451,7 @@
 			"entries": [
 				"A rare crystal embedded in rock, it glows faintly blue, pulsing. Spending 1 minute in its vicinity inflicts you with {@disease spellblight}.",
 				{
-					"type": "statblockinline",
+					"type": "statblockInline",
 					"dataType": "disease",
 					"data" : {
 						"name": "Spellblight",
@@ -459,24 +459,28 @@
 						"page": 0,
 						"entries": [
 							{
+								"type": "entries",
 								"name": "Duration",
 								"entries": [
 									"Two adventures"
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Transmission",
 								"entries": [
 									"Being affected by spells cast by somebody afflicted with the spellblight."
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Prevention",
 								"entries": [
 									"Don't cast spells when you suffer the symptoms. Some protective runes or talismans can negate the energy."
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Detection",
 								"entries": [
 									"Would show up as magical when Detect Magic is cast. Possibly showing every school of magic, or school of magic last cast by the user.",
@@ -484,12 +488,14 @@
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Treatment",
 								"entries": [
 									"Herbalists / Apothecaries / Potions"
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Cure",
 								"entries": [
 									"Lesser Restoration in Stage 1.",
@@ -498,6 +504,7 @@
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Stage 1",
 								"entries": [
 									"Headaches and tinnitus.",
@@ -505,13 +512,18 @@
 								]
 							},
 							{
+								"type": "entries",
 								"name": "Stage 2 - After one adventure",
 								"entries": [
 									"Vertigo - Disadvantage on Dexterity Checks and Saving Throws.",
 									"When you cast a levelled spell, roll a Constitution Saving Throw, DC of 10 + the level of the spell (cantrips are level 0). On a failure, the spell fizzles out, costing the spell slot and having no effect."
 								]
 							},
-							"Cured - After two adventures"
+							{
+								"type": "entries",
+								"name": "Cured - After two adventures",
+								"entries": []
+							}
 						]
 					}
 				}
@@ -1031,24 +1043,28 @@
 			"page": 0,
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Duration",
 					"entries": [
 						"Two adventures"
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Transmission",
 					"entries": [
 						"Being affected by spells cast by somebody afflicted with the spellblight."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Prevention",
 					"entries": [
 						"Don't cast spells when you suffer the symptoms. Some protective runes or talismans can negate the energy."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Detection",
 					"entries": [
 						"Would show up as magical when Detect Magic is cast. Possibly showing every school of magic, or school of magic last cast by the user.",
@@ -1056,12 +1072,14 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Treatment",
 					"entries": [
 						"Herbalists / Apothecaries / Potions"
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Cure",
 					"entries": [
 						"Lesser Restoration in Stage 1.",
@@ -1070,6 +1088,7 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Stage 1",
 					"entries": [
 						"Headaches and tinnitus.",
@@ -1077,13 +1096,21 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Stage 2 - After one adventure",
 					"entries": [
 						"Vertigo - Disadvantage on Dexterity Checks and Saving Throws.",
 						"When you cast a levelled spell, roll a Constitution Saving Throw, DC of 10 + the level of the spell (cantrips are level 0). On a failure, the spell fizzles out, costing the spell slot and having no effect."
 					]
 				},
-				"Cured - After two adventures"
+				{
+					"type": "entries",
+					"name": "Cured - After two adventures",
+					"entries": [
+						"Vertigo - Disadvantage on Dexterity Checks and Saving Throws.",
+						"When you cast a levelled spell, roll a Constitution Saving Throw, DC of 10 + the level of the spell (cantrips are level 0). On a failure, the spell fizzles out, costing the spell slot and having no effect."
+					]
+				}
 			]
 		}
 	],
