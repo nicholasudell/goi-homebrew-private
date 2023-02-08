@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1675883530
+		"dateLastModified": 1675884314
     },
 	"hazard": [
         {
@@ -302,17 +302,11 @@
 			"entries": [
 				"A ruined village with nothing left but foundations. Ghosts inhabit the town and they do not know they are dead. They greet the party as if nothing is wrong. Their minds refuse to accept they are ghosts. They are kept here by an item. They feel compelled to defend it, but sanctifying the item in some way will allow them to move on. Sanctifying the item earns a major boon from Morion.",
 				{
-					"type": "statblockInline",
-					"dataType": "boon",
-					"data": {
-						"name": "Major Boon of Morion",
-						"source": "GuildOfIcons",
-						"page": 0,
-						"type": "Boon",
-						"entries": [
-							"The first time you die, you instead gain 1 hitpoint and the boon is expended."
-						]
-					}
+					"type": "inset",
+					"name": "Major Boon of Morion",
+					"entries": [
+						"The first time you die, you instead gain 1 hitpoint and the boon is expended."
+					]
 				}
 			]
 		},
@@ -451,81 +445,75 @@
 			"entries": [
 				"A rare crystal embedded in rock, it glows faintly blue, pulsing. Spending 1 minute in its vicinity inflicts you with {@disease spellblight}.",
 				{
-					"type": "statblockInline",
-					"dataType": "disease",
-					"data" : {
-						"name": "Spellblight",
-						"source": "GuildOfIcons",
-						"page": 0,
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Duration",
-								"entries": [
-									"Two adventures"
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Transmission",
-								"entries": [
-									"Being affected by spells cast by somebody afflicted with the spellblight."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Prevention",
-								"entries": [
-									"Don't cast spells when you suffer the symptoms. Some protective runes or talismans can negate the energy."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Detection",
-								"entries": [
-									"Would show up as magical when Detect Magic is cast. Possibly showing every school of magic, or school of magic last cast by the user.",
-									"Identify malfunctions and shows a spell that is obviously not the spell you're affected by."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Treatment",
-								"entries": [
-									"Herbalists / Apothecaries / Potions"
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Cure",
-								"entries": [
-									"Lesser Restoration in Stage 1.",
-									"Greater Restoration in Stage 2.",
-									"Cures itself after two adventures."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Stage 1",
-								"entries": [
-									"Headaches and tinnitus.",
-									"Cannot cast spells at your highest spell slot level, but can use higher level spell slots to cast at a lower level."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Stage 2 - After one adventure",
-								"entries": [
-									"Vertigo - Disadvantage on Dexterity Checks and Saving Throws.",
-									"When you cast a levelled spell, roll a Constitution Saving Throw, DC of 10 + the level of the spell (cantrips are level 0). On a failure, the spell fizzles out, costing the spell slot and having no effect."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Cured - After two adventures",
-								"entries": []
-							}
-						]
-					}
+					"type": "inset",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Duration",
+							"entries": [
+								"Two adventures"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Transmission",
+							"entries": [
+								"Being affected by spells cast by somebody afflicted with the spellblight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prevention",
+							"entries": [
+								"Don't cast spells when you suffer the symptoms. Some protective runes or talismans can negate the energy."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Detection",
+							"entries": [
+								"Would show up as magical when Detect Magic is cast. Possibly showing every school of magic, or school of magic last cast by the user.",
+								"Identify malfunctions and shows a spell that is obviously not the spell you're affected by."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Treatment",
+							"entries": [
+								"Herbalists / Apothecaries / Potions"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cure",
+							"entries": [
+								"Lesser Restoration in Stage 1.",
+								"Greater Restoration in Stage 2.",
+								"Cures itself after two adventures."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stage 1",
+							"entries": [
+								"Headaches and tinnitus.",
+								"Cannot cast spells at your highest spell slot level, but can use higher level spell slots to cast at a lower level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stage 2 - After one adventure",
+							"entries": [
+								"Vertigo - Disadvantage on Dexterity Checks and Saving Throws.",
+								"When you cast a levelled spell, roll a Constitution Saving Throw, DC of 10 + the level of the spell (cantrips are level 0). On a failure, the spell fizzles out, costing the spell slot and having no effect."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cured - After two adventures",
+							"entries": []
+						}
+					]
 				}
 			]
 		},
