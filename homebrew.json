@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1676146948
+		"dateLastModified": 1676500108
     },
 	"hazard": [
         {
@@ -410,6 +410,244 @@
 			},
 			"entries": [
 				"Two rings, entwined. They come apart when each is held by one who utterly loves the other. When both are worn by two different creatures who love each other, they each gain +1 AC."
+			]
+		},
+		{
+			"name": "Ace of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A coinpouch falls from the sky. It contains 50 electrum pieces. That night, while they sleep, pieces multiply, and threaten to drown the player. The pieces are all fake and dissolve away with the dawn."
+			]
+		},
+		{
+			"name": "Two of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"In a field, twenty commoners, dressed in bright dyed clothes with ribbons in their hair dance in concentric circles, laughing all the way. They speak, but only to say “Won’t you join us in our merriment?” On closer inspection their soles are dripping in blood and their ankles are black from bruising.  Any who join the dance find it impossible to stop."
+			]
+		},
+		{
+			"name": "Three of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A secluded library, a small shrine to Praeteritas, run by an abbot of parchment. He timidly cares his meagre collection but is too afraid to read any of them, and won’t allow any to be read."
+			]
+		},
+		{
+			"name": "Four of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A rich merchant eats a well-portioned meal at camp aided by his four servants, who are all starving. When asked why the servants are so thin, the merchant replies that they agreed to their wages and that’s what they’ll get! The servants are afraid to rise against their master, for fear of having no money or food at all then, for who will hire a servant who abandoned their master?"
+			]
+		},
+		{
+			"name": "Five of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"Two skeletons, half-encased in stone. They are holding hands and one cradles the other’s head against their ribcage. It is unclear how they became embedded in stone. Magic perhaps? A prayer to the quarreling lovers can be made here for a minor boon."
+			]
+		},
+		{
+			"name": "Six of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A cleric of the sacred fire of Ignova begs for donations. She is from a wandering church who use their funds to run a travelling orphanage. Three children are with her in the cart, they are emaciated and pale. She laments that she cannot afford to feed them well without donations."
+			]
+		},
+		{
+			"name": "Seven of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A travelling salesman offers ordinary adventurers gear, but a thorough search reveals one unusual item. It is a cursed opal that calls to people to purchase it (100 gp). And, after purchasing it, convinces them to throw it in a river. The salesman feigns innocence, isn’t sure where he got it from, but he’s certain it’s good."
+			]
+		},
+		{
+			"name": "Eight of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"Twenty commoners with glassy eyes are chipping runes with bone tools into the rockface. Examining the runes they’ve already completed blurs your vision, as if they defy observation. When questioned the commoners mutter about bad dreams but make no logical argument."
+			]
+		},
+		{
+			"name": "Nine of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A talking crow speaks to the party from a nearby perch. It warns of grave danger ahead, but when questions responds only with cawing. It is not a Beast for purposes of spells."
+			]
+		},
+		{
+			"name": "Ten of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A demon stone sat alone in a lightning-struck clearing. It crackles with electrical energy. The bearer may spend one hit die bleeding into the stone to summon a Quasit. The quasit does the summoner’s bidding for 1 minute before the magic wears off and it becomes hostile to the party."
+			]
+		},
+		{
+			"name": "Page of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"Ignacious Horatio Winterbottom, a demon fanboy, is seeking to recruit new assistants. He wishes to open a portal to the abyss and summon forth a quasit to study. He asks the party for their help getting the candles proper and dribbly."
+			]
+		},
+		{
+			"name": "Knight of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"The ghost of Celerotas, an old scholar walks along the road. He is morose, head down, watching his bare feet pad against the stones. If hailed, he will ask of news, before mentioning his perfect memory. If the party give him information, he will give them information."
+			]
+		},
+		{
+			"name": "Queen of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"Astarte, an angel of war appears to the party. She is riding a chariot with mighty horses. She tells the party they are her levies and they have been raised for war against the demons. They must come with her, unless they can convince her otherwise."
+			]
+		},
+		{
+			"name": "King of Pentacles",
+			"source": "GuildOfIcons",
+			"set": "Tarot of Encounters",
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/generic/unknown.webp"
+					},
+				"width": 411,
+				"height": 561
+			},
+			"entries": [
+				"A well-dressed man in fine nobles clothes sits on a rock enjoying a glass of deep red wine. He is happy to see a group of such capable adventurers, and says “perhaps we can help each other”. He offers a trade: in exchange for fealty, he has the power to hold back death. He is Ashmedai, the lord of hell. He revels in games and deals."
 			]
 		},
 		{
