@@ -1367,6 +1367,175 @@
 	],
     "monster": [
 		{
+			"name": "Mirrorscale Bulette",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"lock"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 150,
+				"formula": "12d12 + 72"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 23,
+			"int": 2,
+			"wis": 14,
+			"cha": 4,
+			"skill": {
+				"athletics": "+10",
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "in non-mythic form",
+					"cond": true
+				},
+				{
+					"resist": ["fire"],
+					"note": "in mythic form",
+					"cond": true
+				}
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The bulette's long jump is up to 30 ft. and its high jump is up to 15 ft., with or without a running start.",
+						"Spiked carapace. Creatures who start their turn or enter within 5 ft. of the bulette take 3 ({@damage 1d6}) piercing damage. In mythic form, they also take 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the bulette fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Mirrormetal Flux (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the bulette would be reduced to 0 hit points, its carapace cracks and reveals a shimmering, half-molten underlayer of mirrormetal. Liquid mirrormetal spurts in gouts from the wounds it has received.",
+						"It loses its damage resistance to piercing, bludgeoning, and slashing damage, and gains damage resistance to fire damage. Its current hit point total instead resets to 150 hit points, and it regains any expended uses of Legendary Resistance. Additionally, the bulette can now use the Launch attack, as well as the options in the \"Mythic Actions\" section for 1 hour. Award a party an additional 3,900 XP (7,800 XP total) for defeating the bulette after its Mirrormetal Flux activates."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d8}) piercing damage and the target is {@condition grappled} (escape {@dc 15})"
+					]
+				},
+				{
+					"name": "Deadly Leap",
+					"entries": [
+						"If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a {@dc 15} Strength or Dexterity saving throw (target's choice) or be knocked {@condition prone} and take 14 ({@damage 3d6 + 4}) bludgeoning damage plus 14 ({@damage 3d6 + 4}) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked {@condition prone}, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls {@condition prone} in the bulette's space."
+					]
+				},
+				{
+					"name": "Launch (Mythic)",
+					"entries": [
+						"The bulette launches from beneath the earth in an eruption that shakes the ground. All creatures within 60 ft. of the eruption point must make a {@dc 15} Strength saving throw, taking 9 ({@damage 2d8}) bludgeoning damage and falling {@condition prone} on a failure or taking half as much damage and remaining standing on a success."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The Bulette makes a Bite attack."
+					]
+				},
+				{
+					"name": "Tunnel",
+					"entries": [
+						"The bulette dives underground, moving up to half its speed."
+					]
+				},
+				{
+					"name": "Boulder Shell",
+					"entries": [
+						"The bulette shrinks inside its carapace, increasing its AC to 22 until the end of the next creature's turn. While in the shell, it is {@condition incapacitated}."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If the bulette's mythic trait is active, it can use the options below as legendary actions for 1 hour after using {Some Ability}."
+			],
+			"mythic": [
+				{
+					"name": "Alloyed Resolve",
+					"entries": [
+						"Liquid mirror metal fills and seals cracks in the bulette's carapace. It gains 9 ({@dice 2d8}) temporary hit points."
+					]
+				},
+				{
+					"name": "Burnish (3 actions)",
+					"entries": [
+						"The bulette shoots a gout of liquid mirror metal from its carapace. The target must make a 15 Dexterity saving throw or take 36 ({@damage 8d8}) fire damage. If this damage reduces a creature to 0 hit points, they are {@condition petrified} as a mirror metal statue.",
+						"Lair Actions When fighting inside its lair, the bulette can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the bulette can take one lair action to cause one of the following effects: The tremors of battle shake loose 5 ({@dice 2d4}) stirge minions from the cave roof, who join the battle.",
+						"Rocks shake loose from the ceiling. Creatures within 5 ft. of two points the bulette chooses must succeed on a {@dc 15} Dexterity saving throw or take 7 ({@damage 2d6}) bludgeoning damage.",
+						"Rumbles shake the ground, churning it. The area extending 20 ft. from the bulette becomes difficult terrain.",
+						"A swirling storm of dust fills the room. Until the start of the next round, all creatures in the maelstrom are {@condition blinded}, and must spend 3 feet of movement for every 1 foot it moves there.",
+						"The bulette can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone"
+			]
+		},		
+		{
 			"name": "Deadwalker",
 			"source": "GuildOfIcons",
 			"page": 0,
