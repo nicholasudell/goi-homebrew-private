@@ -1385,6 +1385,104 @@
 	],
     "monster": [
 		{
+			"name": "Water Elemental Weirdlet",
+			"source": "",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 40
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 15,
+			"int": 5,
+			"wis": 10,
+			"cha": 8,
+			"senses": [
+				"tremorsense 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Aquan"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Water Form",
+					"entries": [
+						"The weirdlet can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Sonar",
+					"entries": [
+						"The weirdlet can use its Tremorsense to detect other creatures in the same body of water it is in."
+					]
+				},
+				{
+					"name": "Minion",
+					"entries": [
+						"Any attack that hits or failed saving throw that damages this creature kills it. A successful save that deals half damage must deal the creature's hitpoint maximum to kill it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Underwhelm",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 bludgeoning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"T"
+			],
+			"languageTags": [
+				"AQ"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
 			"name": "Mirrorscale Bulette",
 			"source": "GuildOfIcons",
 			"page": 0,
