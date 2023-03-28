@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1680025863
+		"dateLastModified": 1680029458
     },
 	"hazard": [
         {
@@ -1384,6 +1384,104 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Wandwhine the Gnoll",
+			"source": "GuildofIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|PHB}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d8 + 50"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 9,
+			"con": 20,
+			"int": 5,
+			"wis": 9,
+			"cha": 8,
+			"save": {
+				"str": "+6"
+			},
+			"skill": {
+				"athletics": "+6",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Gnoll"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Berserker Rage",
+					"entries": [
+						"When the Gnoll has fewer than half its hit points remaining, it can use its Multiattack action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Bloodied only)",
+					"entries": [
+						"The Gnoll makes two Random Wand or Bite attacks."
+					]
+				},
+				{
+					"name": "Random Wand",
+					"entries": [
+						"The Gnoll uses a random Wizard spell of 1st level or higher with a casting time of action that does not require {@status concentration}."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
 		{
 			"name": "Water Elemental Weirdlet",
 			"source": "",
