@@ -1365,6 +1365,24 @@
 			]
 		}
 	],
+	"legendaryGroup": [
+		{
+			"name": "MirrorscaleBulette",
+			"source": "GuildOfIcons",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the bulette takes one lair action to cause one of the following effects: The tremors of battle shake loose 5 ({@dice 2d4}) stirge minions from the cave roof, who join the battle.",
+				{
+					"type": "list",
+					"items": [
+						"Rocks shake loose from the ceiling. Creatures within 5 ft. of two points the bulette chooses must succeed on a {@dc 15} Dexterity saving throw or take 7 ({@damage 2d6}) bludgeoning damage.",
+						"Rumbles shake the ground, churning it. The area extending 20 ft. from the bulette becomes difficult terrain.",
+						"A swirling storm of dust fills the room. Until the start of the next round, all creatures in the maelstrom are {@condition blinded}, and must spend 3 feet of movement for every 1 foot it moves there.",
+					]
+				},
+				"The bulette can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+			]
+		}
+	],
     "monster": [
 		{
 			"name": "Mirrorscale Bulette",
@@ -1492,6 +1510,10 @@
 					]
 				}
 			],
+			"legendaryGroup": {
+				"name": "MirrorscaleBulette",
+				"source": "GuildOfIcons"
+			},
 			"mythicHeader": [
 				"If the bulette's mythic trait is active, it can use the options below as legendary actions for 1 hour after using {Some Ability}."
 			],
@@ -1505,15 +1527,11 @@
 				{
 					"name": "Burnish (3 actions)",
 					"entries": [
-						"The bulette shoots a gout of liquid mirror metal from its carapace. The target must make a 15 Dexterity saving throw or take 36 ({@damage 8d8}) fire damage. If this damage reduces a creature to 0 hit points, they are {@condition petrified} as a mirror metal statue.",
-						"Lair Actions When fighting inside its lair, the bulette can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the bulette can take one lair action to cause one of the following effects: The tremors of battle shake loose 5 ({@dice 2d4}) stirge minions from the cave roof, who join the battle.",
-						"Rocks shake loose from the ceiling. Creatures within 5 ft. of two points the bulette chooses must succeed on a {@dc 15} Dexterity saving throw or take 7 ({@damage 2d6}) bludgeoning damage.",
-						"Rumbles shake the ground, churning it. The area extending 20 ft. from the bulette becomes difficult terrain.",
-						"A swirling storm of dust fills the room. Until the start of the next round, all creatures in the maelstrom are {@condition blinded}, and must spend 3 feet of movement for every 1 foot it moves there.",
-						"The bulette can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+						"The bulette shoots a gout of liquid mirror metal from its carapace. The target must make a 15 Dexterity saving throw or take 36 ({@damage 8d8}) fire damage. If this damage reduces a creature to 0 hit points, they are {@condition petrified} as a mirror metal statue."
 					]
 				}
 			],
+			"lair"
 			"traitTags": [
 				"Legendary Resistances"
 			],
