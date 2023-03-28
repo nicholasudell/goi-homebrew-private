@@ -1376,7 +1376,7 @@
 					"items": [
 						"Rocks shake loose from the ceiling. Creatures within 5 ft. of two points the bulette chooses must succeed on a {@dc 15} Dexterity saving throw or take 7 ({@damage 2d6}) bludgeoning damage.",
 						"Rumbles shake the ground, churning it. The area extending 20 ft. from the bulette becomes difficult terrain.",
-						"A swirling storm of dust fills the room. Until the start of the next round, all creatures in the maelstrom are {@condition blinded}, and must spend 3 feet of movement for every 1 foot it moves there.",
+						"A swirling storm of dust fills the room. Until the start of the next round, all creatures in the maelstrom are {@condition blinded}, and must spend 3 feet of movement for every 1 foot it moves there."
 					]
 				},
 				"The bulette can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
