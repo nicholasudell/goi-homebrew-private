@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1680029458
+		"dateLastModified": 1680200287
     },
 	"hazard": [
         {
@@ -1484,7 +1484,7 @@
 		},
 		{
 			"name": "Water Elemental Weirdlet",
-			"source": "",
+			"source": "GuildOfIcons",
 			"page": 0,
 			"size": [
 				"M"
