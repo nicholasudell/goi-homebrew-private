@@ -1403,15 +1403,14 @@
 			],
 			"ac": [
 				{
-					"ac": 18,
+					"ac": 12,
 					"from": [
-						"{@item chain mail|PHB}",
-						"{@item shield|PHB}"
+						"{@spell mage armor|PHB}"
 					]
 				}
 			],
 			"hp": {
-				"average": 95,
+				"average": 120,
 				"formula": "10d8 + 50"
 			},
 			"speed": {
@@ -1443,6 +1442,18 @@
 					"name": "Berserker Rage",
 					"entries": [
 						"When the Gnoll has fewer than half its hit points remaining, it can use its Multiattack action."
+					]
+				},
+				{
+					"name": "Fire Shield",
+					"entries": [
+						"Whenever a creature within 5 ft hits the gnoll with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage."
+					]
+				},
+				{
+					"name": "Blink",
+					"entries": [
+						"Roll a d20 at the end of each of your turns. On a roll of 11 or higher, you vanish and appear in the Ethereal Plane. At the start of your next turn, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from."
 					]
 				}
 			],
