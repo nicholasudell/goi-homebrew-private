@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1692371575
+		"dateLastModified": 1692379214
     },
 	"hazard": [
         {
@@ -1401,12 +1401,12 @@
 										{
 											"type": "entries",
 											"name": "1+ Army Of The Lost.",
-											"entries": ["The graves open and skeletons shamble from the dirt. Each skeleton is a minion. There are 10 of them, and 10 more arrive each round."]
+											"entries": ["The graves open and skeletons shamble from the dirt. Each {@creature skeleton} is a minion. There are 10 of them, and 10 more arrive each round."]
 										},
 										{
 											"type": "entries",
 											"name": "2 Stitch Flesh, Knit Bone.",
-											"entries": [" Merrifryth destroys 5 skeletons and raises in their place a Skeletal Juggernaut."]
+											"entries": [" Merrifryth destroys 5 skeletons and raises in their place a {@creature Skeletal Juggernaut}."]
 										}
 									]
 								},
@@ -1624,6 +1624,7 @@
 					"braces": true
 				}
 			],
+			"cr": "14",
 			"hp": {
 				"average": 121,
 				"formula": "22d6 + 44"
@@ -1661,16 +1662,6 @@
 			],
 			"languages": [
 				"any six languages"
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"type": "spellcasting",
-					"headerEntries": [
-						"For any spellcasting listed below, Merrifryth has a spell save DC of 19 and {@hit 11} to hit with spell attacks."
-					],
-					"displayAs": "action"
-				}
 			],
 			"trait": [
 				{
@@ -1712,9 +1703,15 @@
 			],
 			"action": [
 				{
+					"name": "Spellcasting",
+					"entries": [
+						"For any spellcasting listed below, Merrifryth has a spell save DC of 19 and {@hit 11} to hit with spell attacks."
+					]
+				},
+				{
 					"name": "Timestop (1/Day)",
 					"entries": [
-						"Merrifryth casts Timestop. He gains 3 turns, which he uses to cast {@spell Mind Blank}, Mage Armor, and Fire Shield (in Cold Shield configuration)."
+						"Merrifryth casts {@spell Time Stop}. He gains 3 turns, which he uses to cast {@spell Mind Blank}, {@spell Mage Armor}, and {@spell Fire Shield} (in Cold Shield configuration)."
 					]
 				},
 				{
@@ -1742,9 +1739,9 @@
 					]
 				},
 				{
-					"name": "Behold!",
+					"name": "Behold! The Elements! (Recharge 3+).",
 					"entries": [
-						"The Elements! (Recharge 3+). Merrifryth casts {@spell Fireball}, Lightning Bolt, Erupting Earth, or Tidal Wave."
+						"Merrifryth casts {@spell Fireball}, {@spell Lightning Bolt}, {@spell Erupting Earth}, or {@spell Tidal Wave}."
 					]
 				},
 				{
