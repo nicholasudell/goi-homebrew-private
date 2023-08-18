@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1692371575
+		"dateLastModified": 1692372038
     },
 	"hazard": [
         {
@@ -1624,6 +1624,7 @@
 					"braces": true
 				}
 			],
+			"cr": "14",
 			"hp": {
 				"average": 121,
 				"formula": "22d6 + 44"
@@ -1661,16 +1662,6 @@
 			],
 			"languages": [
 				"any six languages"
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"type": "spellcasting",
-					"headerEntries": [
-						"For any spellcasting listed below, Merrifryth has a spell save DC of 19 and {@hit 11} to hit with spell attacks."
-					],
-					"displayAs": "action"
-				}
 			],
 			"trait": [
 				{
@@ -1711,6 +1702,12 @@
 				}
 			],
 			"action": [
+				{
+					"name": "Spellcasting",
+					"entries": [
+						"For any spellcasting listed below, Merrifryth has a spell save DC of 19 and {@hit 11} to hit with spell attacks."
+					]
+				},
 				{
 					"name": "Timestop (1/Day)",
 					"entries": [
