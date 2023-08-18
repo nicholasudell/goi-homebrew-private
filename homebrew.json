@@ -5,7 +5,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.10",
+                "version": "1.0.11",
                 "authors": [
                     "Nick"
                 ],
@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1687533760
+		"dateLastModified": 1692371575
     },
 	"hazard": [
         {
@@ -1381,9 +1381,452 @@
 				},
 				"The bulette can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
 			]
+		},
+		{
+			"name": "MerrifrythWinnifreth",
+			"source": "GuildOfIcons",
+			"lairActions": [
+				"When fighting inside the prison of creation, Merrifryth can invoke the potent creative magic to take lair actions. On initiative count 20 (losing initiative ties), Merrifryth can take one lair action from the following, depending on what environment he is currently in.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "1. Graveyard",
+							"entries": [
+								"Merrifryth creates an expansive graveyard in the prison of creation.",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "1+ Army Of The Lost.",
+											"entries": ["The graves open and skeletons shamble from the dirt. Each skeleton is a minion. There are 10 of them, and 10 more arrive each round."]
+										},
+										{
+											"type": "entries",
+											"name": "2 Stitch Flesh, Knit Bone.",
+											"entries": [" Merrifryth destroys 5 skeletons and raises in their place a Skeletal Juggernaut."]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conditions to proceed:",
+									"entries": ["Take out the skeletal juggernaut." ]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "2. Hurl Through Home",
+							"entries": [
+								"Merrifryth recreates the crumbling spire of Wark.",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "1 Great Heights Begat Great Falls.",
+											"entries": ["A sweeping wind threatens to push the party off the highest point on Wark and into the Glarus desert below. The desert is 2,000 ft. down. It will take 4 rounds to land."]
+										},
+										{
+											"type": "entries",
+											"name": "2 The Earth Shook And Groaned.",
+											"entries": ["The spire begins to crumble underfoot. All non-falling creatures must make a Dexterity saving throw or fall {@condition prone}."]
+										},
+										{
+											"type": "entries",
+											"name": "3 Rock Tore Asunder.",
+											"entries": ["The Wark spire shears, and half the spire falls into the desert below. It is a {@dc 20} dexterity saving throw to grab a safe ledge and climb up. Otherwise, a falling character takes 21 ({@damage 6d6}) bludgeoning damage from the rocks as they start to fall."]
+										},
+										{
+											"type": "entries",
+											"name": "4 The Sands Offered Their Condolences.",
+											"entries": ["Those who have still been falling take 70 ({@damage 20d6}) bludgeoning damage. The desert sands are whipped up by the wind and blind everybody."]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conditions to proceed:",
+									"entries": ["Cause Merrifryth to fall, or rescue all falling characters."]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "3. The Great Masquerade",
+							"entries": [
+								"All of a sudden you are bombarded with glittering light and raucous applause. Music plays. Gaudily-dressed people twist and turn on polished parquet, each covering their face with an animal mask. You realise Merrifryth is gone. One of you feels a dart puncture their skin.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "The people are real.",
+											"entries": ["They didn't exist before now, but they are real now."]
+										},
+										{
+											"type": "entries",
+											"name": "Find Merrifryth.",
+											"entries": ["He's using {@spell Disguise Self} to seem taller than he is. Detect magic can find him unless he has time to use Nystul's Mystic Aura to hide that, too. He's taken the form of a female wood elf wearing a panther mask. Merrifryth won't hide away, he enjoys the game. He will come over to the party and offer to help."]
+										},
+										{
+											"type": "entries",
+											"name": "Constantly moving.",
+											"entries": ["Even if they catch sight of somebody, the constant pirouetting and turning make it difficult to follow, like a cup game on the side of the road."]
+										},
+										{
+											"type": "entries",
+											"name": "Poison.",
+											"entries": ["The poison deals one character 18 ({@damage 4d8}) damage at the start of every round. Keep in initiative order for this. There is no save, only the antidote which Merrifryth has, or some other fix the players come up with."]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conditions to proceed:",
+									"entries": ["Find Merrifryth or cure the poison."]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "4. Flames Burn All Things",
+							"entries": [
+								"A massive volcano rises from the middle of the ballroom floor and now the players are on the crumbling rim of an active volcano that bubbles below them.",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "Caldera",
+											"entries": ["The centre of the map is a searing caldera of liquid fire. Any creature falling in is subjected to 90 ({@damage 20d8}) fire damage."]
+										},
+										{
+											"type": "entries",
+											"name": "1. Tempest Of Stone",
+											"entries": ["All creatures on the ground {@dc 20} Dexterity saving throw or knocked {@condition prone}"]
+										},
+										{
+											"type": "entries",
+											"name": "1. Lava Snakes",
+											"entries": ["10 {@creature Fire Snake}s crawl out of the caldera and join initiative on Merrifryth's side. They are minions."]
+										},
+										{
+											"type": "entries",
+											"name": "2. Magma Plumes.",
+											"entries": ["Jet from the magma caldera. All creatures {@dc 20} Dexterity saving throw or 36 ({@damage 8d8}) fire damage."]
+										},
+										{
+											"type": "entries",
+											"name": "2. The Time To Flee Was Five Minutes Ago.",
+											"entries": ["The Caldera's magma level rises 10 feet. It is now close to overflowing."]
+										},
+										{
+											"type": "entries",
+											"name": "3. Eruption.",
+											"entries": ["The caldera's magma level bursts its banks, washing everybody on the ground in magma. There is no save. 45 ({@damage 10d8}) fire damage."]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conditions to proceed:",
+									"entries": ["Activate Merrifryth's Mythic Trait."]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "[Special] The Sea of Stars",
+							"entries": [
+								"A place of pure creation. It is the burning star-furnace at the heart of a cold, blue/green nebula.",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "1. The Stars. By The Gods, The Stars.",
+											"entries": [" Merrifryth pulls a star from the night sky, crushes it in his hand, and whispers an incantation (counts as a spell, counterable). Merrifryth gains a ninth-level spell slot and can use it only to cast {@spell Prismatic Wall}."]
+										},
+										{
+											"type": "entries",
+											"name": "1. I Know That Hand, It Is My Own.",
+											"entries": ["Merrifryth renders every Merrifryth item inert. They lose all their magical abilities and become mundane objects."]
+										},
+										{
+											"type": "entries",
+											"name": "2. Breath of Creation.",
+											"entries": ["The winds of creation rush through Merrifryth, restoring 14 ({@dice 4d6}) hit points."]
+										},
+										{
+											"type": "entries",
+											"name": "2. Tempus Fugit.",
+											"entries": ["A red mote of creation coalesces over every PC. It forms the number 3. At the start of each turn after this, it counts down."]
+										},
+										{
+											"type": "entries",
+											"name": "3. Supernova.",
+											"entries": ["Merrifryth hurls a mote of creation at the party. It explodes in prismatic light, dealing 4 ({@dice 1d8}) each of necrotic, radiant, acid, thunder, lightning, cold, poison, fire, and force damage to all creatures."]
+										},
+										{
+											"type": "entries",
+											"name": "4. A Hole In Creation.",
+											"entries": [" Merrifryth calls forth the darkstar, a hungry, writhing mass of blackness that draws in the players and crushes them. {@dc 20} Strength saving throw or take 36 ({@damage 8d8}) force damage."]
+										},
+										{
+											"type": "entries",
+											"name": "5. Tempus Fugit",
+											"entries": ["The motes of red light over each character's head ticks down to 0. Merrifryth casts {@spell Power Word Kill}, targeting every character."]
+										}
+
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conditions to proceed:",
+									"entries": ["Kill Merrifryth."]
+								}
+							]
+						}
+					]
+				},
+				"Merrifryth takes lair actions in order, and only takes a new lair action if the last has resolved. If multiple lair actions are specified for the same turn, they all occur. If the conditions to proceed are met, the next Lair is immediately activated and its first turn actions are resolved."
+			]
 		}
 	],
     "monster": [
+		{
+			"name": "Merrifryth Winnifreth, Tempus Fugitive",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 121,
+				"formula": "22d6 + 44"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 14,
+			"int": 22,
+			"wis": 18,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"int": "+11",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+16",
+				"deception": "+9",
+				"history": "+16"
+			},
+			"passive": 14,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"any six languages"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"For any spellcasting listed below, Merrifryth has a spell save DC of 19 and {@hit 11} to hit with spell attacks."
+					],
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Time Is My Command",
+					"entries": [
+						"Merrifryth does not roll initiative. His initiative score is 22."
+					]
+				},
+				{
+					"name": "Channel Time",
+					"entries": [
+						"If Merrifryth has at least one charge of Channelled Time, he may expend one charge to take a reaction even if he has already used his reaction since his last turn. If Merrifryth has at least three charges of Channelled Time, he may expend three charges to take an additional turn at the end of any creature's turn."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Merrifryth has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Merrifryth fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When Merrifryth rolls a 1 on the {@dice d20} for an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Sea of Stars",
+					"entries": [
+						"When Merrifryth is reduced to 0 hit points, he instead regains all his hit points and immediately activates his Sea of Stars Lair Action. Additionally, he can now use his Mythic Actions as Legendary Actions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Timestop (1/Day)",
+					"entries": [
+						"Merrifryth casts Timestop. He gains 3 turns, which he uses to cast {@spell Mind Blank}, Mage Armor, and Fire Shield (in Cold Shield configuration)."
+					]
+				},
+				{
+					"name": "Ravage of Time (1/Day)",
+					"entries": [
+						"Merrifryth casts {@spell Abi-Dalzim's Horrid Wilting|XGE}."
+					]
+				},
+				{
+					"name": "Mass Suggestion (1/Day)",
+					"entries": [
+						"Merrfryth casts {@spell Mass Suggestion} on every creature except Eao, and tries to convince the affected that Eao is actually Merrifryth and Merrifryth is Eao. It's all an illusion, we must attack Eao!"
+					]
+				},
+				{
+					"name": "Dominate Person (1/Day)",
+					"entries": [
+						"Merrifryth casts {@spell Dominate Person}."
+					]
+				},
+				{
+					"name": "Dispel Magic (3/Day)",
+					"entries": [
+						"Merrifryth casts {@spell Dispel Magic}"
+					]
+				},
+				{
+					"name": "Behold!",
+					"entries": [
+						"The Elements! (Recharge 3+). Merrifryth casts {@spell Fireball}, Lightning Bolt, Erupting Earth, or Tidal Wave."
+					]
+				},
+				{
+					"name": "Acid Arrow",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 90 ft., one target. {@h}10 ({@damage 4d4}) acid damage and 5 ({@damage 2d4}) acid damage at the start of its next turn. Miss: Half damage and no damage at the start of its next turn."
+					]
+				},
+				{
+					"name": "Shocking Grasp",
+					"entries": [
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d8}) lightning damage and the target can't take reactions until the start of their next turn. The attack has advantage if the target is wearing metal armour."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "I Do Not Miss",
+					"entries": [
+						"When Merrifryth misses with an attack roll or when a creature succeeds on a Dexterity saving throw against one of Merrifryth's spells or effects, Merrifryth can cause the attack to hit or the target creature to fail their save."
+					]
+				},
+				{
+					"name": "Shield",
+					"entries": [
+						"When an attack roll hits or magic missile is cast, Merrifryth can prevent all damage from magic missile and increase his AC by 5 until the start of his next turn."
+					]
+				},
+				{
+					"name": "Counterspell (3/Day)",
+					"entries": [
+						"Merrifryth casts {@spell Counterspell}."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Seize Opportunity",
+					"entries": [
+						"Merrifryth steals fragments of time from other people. One target creature must make a {@dc 15} Charisma Saving Throw. On a failed save, that creature cannot use their action on their next turn. Whether the target failed or succeeded on their save, Merrifryth gains one charge of Channelled Time."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "MerrifrythWinnifreth",
+				"source": "GuildOfIcons"
+			},
+			"mythicHeader": [
+				"If Merrifryth's mythic trait is active, it can use the options below as legendary actions for 1 hour after using Sea of Stars."
+			],
+			"mythic": [
+				{
+					"name": "Create",
+					"entries": [
+						"Merrifryth creates one object, such as a siege weapon, cauldron of boiling pitch, cloud of arrows, or any other item that fits within a 10 ft. cube. The object immediately targets one creature within 5 ft. using Merrifryth's spellcasting modifier. On a hit, the damage is 11 ({@dice 2d10}) of a type dependant on the item created. After making the attack, the object disintegrates into a constellation of stars."
+					]
+				},
+				{
+					"name": "Destroy (3 actions)",
+					"entries": [
+						"Merrifryth points to one object that is being held or worn. Its bearer must make a {@dc 19} Charisma saving throw or the object is destroyed. The object is destroyed even if it is an artefact. The object disintegrates into feathers, butterflies, snakes, ash, or shards of glass."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"A",
+				"L"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"savingThrowForced": [
+				"charisma"
+			]
+		},		
 		{
 			"name": "Grounded of Wark",
 			"source": "GuildOfIcons",
