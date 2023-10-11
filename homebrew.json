@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1696991110
+		"dateLastModified": 1696991401
     },
 	"hazard": [
         {
@@ -649,7 +649,7 @@
 				{
 					"name": "Death Blast",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 60/120 ft., one target. {@h}7 ({@dice 2d6}) necrotic and 7 ({@damage 2d6}) psychic damage. A creature hit by this attack gains one point of {@condition death}."
+						"{@atk rs} {@hit 7} to hit, range 60/120 ft., one target. {@h}7 ({@dice 2d6}) necrotic and 7 ({@damage 2d6}) psychic damage. A creature hit by this attack gains one point of {@condition death|GuildOfIcons}."
 					]
 				},
 				{
@@ -663,7 +663,7 @@
 				{
 					"name": "Equal and Opposite",
 					"entries": [
-						"Trigger: When Entropy is hit by a spell that deals fire, lightning, force, or radiant damage. The origin of the damage must make a {@dc 15} Constitution saving throw or gain one point of {@condition death}."
+						"Trigger: When Entropy is hit by a spell that deals fire, lightning, force, or radiant damage. The origin of the damage must make a {@dc 15} Constitution saving throw or gain one point of {@condition death|GuildOfIcons}."
 					]
 				}
 			],
