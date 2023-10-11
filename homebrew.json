@@ -5,7 +5,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.11",
+                "version": "1.0.12",
                 "authors": [
                     "Nick"
                 ],
@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1693321795
+		"dateLastModified": 1696990811
     },
 	"hazard": [
         {
@@ -166,1116 +166,6 @@
             }
         }
 	],
-	"card": [
-		{
-			"name": "King of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Eladrin scientist and trader Kalassir d’Oberan’s carriage of wonders has broken down on the side of the road. In exchange for helping them right their carriage and fix the wheel, they will offer to “augment” a non-magical item for each character, using the artificer infusions. This will last until their next long rest. They also sell contraptions like hunting traps, caltrops, etc. The tinkering lasts until the end of the next long rest."
-			]
-		},
-		{
-			"name": "Queen of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"The Face of Lulles, a large shard of mirror metal, embedded in a rock. The party may peer through the mirror to see their future. They each see one different quest hook. They each can roll a D20 and use it as a portent. The portent lasts until their next long rest."
-			]
-		},
-		{
-			"name": "Nine of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An old, crumbling church to Morion with a font of life-blessed water, and an inscription saying “Rest here and be safe. Drink here and be welcomed. Take from here and taste naught but ash.” Drinking the water from the font heals 2d4+4 hitpoints. Removing water from the font ends the enchantment on the font and deals 2d8+8 necrotic damage to anybody who drank from the font that day. The church then crumbles around them, perhaps on top of them."
-			]
-		},
-		{
-			"name": "Ten of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A beautiful crystal statue in a lush rose garden, no matter the environment, surrounded by other crystal statues. All within a mile a drawn to it. It sings beautiful song that charms people. Upon arrival, it animates and demands fealty from those who approach, and that fealty is in perfection. Those who agree are turned to crystal and petrified, those who do not are attacked. Has animated armor statistics. Once destroyed, all statues return to life."
-			]
-		},
-		{
-			"name": "Three of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An old camp, previously used by adventurers. Investigating the tracks finds they left in a hurry, and a satchel can be found hanging from a tree. Inside are 1d4+2 healing potions."
-			]
-		},
-		{
-			"name": "Four of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A fine silver chalice left on an altar stained red. It is inset with rubies that glow to the touch. If you take it, you feel a great thirst that can only be quenched by drinking wine from the chalice, gaining the Poisoned condition. "
-			]
-		},
-		{
-			"name": "Five of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"You find a stuffed bear, missing a head. It has a small tag on its leg that reads “Fuzy”."
-			]
-		},
-		{
-			"name": "Six of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A ruined village with nothing left but foundations. Ghosts inhabit the town and they do not know they are dead. They greet the party as if nothing is wrong. Their minds refuse to accept they are ghosts. They are kept here by an item. They feel compelled to defend it, but sanctifying the item in some way will allow them to move on. Sanctifying the item earns a major boon from Morion.",
-				{
-					"type": "inset",
-					"name": "Major Boon of Morion",
-					"entries": [
-						"The first time you die, you instead gain 1 hitpoint and the boon is expended."
-					]
-				}
-			]
-		},
-		{
-			"name": "Seven of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A talking animal calls to the party and offers a favour, to show them a faster route through the area they’re in. The hex next hex will cost zero tokens as the animal takes them through the feywild. They ask for nothing in return and are vague if asked. They are a fey, and will extract a fey price."
-			]
-		},
-		{
-			"name": "Eight of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"The party come across a near-abandoned town in abject poverty. The people there have very little and are too malnourished to survive a long journey. The crops are blighted here and the waters poisoned. They beg for sustenance and assistance, though they can offer no reward."
-			]
-		},
-		{
-			"name": "Page of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Hireling, news, reflection. A young page ambushes the party with a loosed arrow into the mud. He surrenders the moment the party fights back, says he wanted to show he has skills and is a real adventure. Offers to the most martial party member to be their page, at least for a little while."
-			]
-		},
-		{
-			"name": "Knight of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Invitation, Approach. A messenger delivers an invitation to a self-styled lord’s meal at the castle, along with directions. Upon arrival, the lord is a madman and messiah who settles down with his retinue of “knights” to eat the flesh of the messenger. This madness is driven by a poisoned well. Anybody drinking takes 3 points of abhorrence."
-			]
-		},
-		{
-			"name": "Ace of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"You come across an isolated hut. In it, a farming family are setting down for dinner. They offer a safe place to rest and some of their food and drink."
-			]
-		},
-		{
-			"name": "Two of Cups",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Two rings, entwined. They come apart when each is held by one who utterly loves the other. When both are worn by two different creatures who love each other, they each gain +1 AC."
-			]
-		},
-		{
-			"name": "Ace of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A coinpouch falls from the sky. It contains 50 electrum pieces. That night, while they sleep, pieces multiply, and threaten to drown the player. The pieces are all fake and dissolve away with the dawn."
-			]
-		},
-		{
-			"name": "Two of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"In a field, twenty commoners, dressed in bright dyed clothes with ribbons in their hair dance in concentric circles, laughing all the way. They speak, but only to say “Won’t you join us in our merriment?” On closer inspection their soles are dripping in blood and their ankles are black from bruising.  Any who join the dance find it impossible to stop."
-			]
-		},
-		{
-			"name": "Three of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A secluded library, a small shrine to Praeteritas, run by an abbot of parchment. He timidly cares his meagre collection but is too afraid to read any of them, and won’t allow any to be read."
-			]
-		},
-		{
-			"name": "Four of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A rich merchant eats a well-portioned meal at camp aided by his four servants, who are all starving. When asked why the servants are so thin, the merchant replies that they agreed to their wages and that’s what they’ll get! The servants are afraid to rise against their master, for fear of having no money or food at all then, for who will hire a servant who abandoned their master?"
-			]
-		},
-		{
-			"name": "Five of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Two skeletons, half-encased in stone. They are holding hands and one cradles the other’s head against their ribcage. It is unclear how they became embedded in stone. Magic perhaps? A prayer to the quarreling lovers can be made here for a minor boon."
-			]
-		},
-		{
-			"name": "Six of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A cleric of the sacred fire of Ignova begs for donations. She is from a wandering church who use their funds to run a travelling orphanage. Three children are with her in the cart, they are emaciated and pale. She laments that she cannot afford to feed them well without donations."
-			]
-		},
-		{
-			"name": "Seven of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A travelling salesman offers ordinary adventurers gear, but a thorough search reveals one unusual item. It is a cursed opal that calls to people to purchase it (100 gp). And, after purchasing it, convinces them to throw it in a river. The salesman feigns innocence, isn’t sure where he got it from, but he’s certain it’s good."
-			]
-		},
-		{
-			"name": "Eight of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Twenty commoners with glassy eyes are chipping runes with bone tools into the rockface. Examining the runes they’ve already completed blurs your vision, as if they defy observation. When questioned the commoners mutter about bad dreams but make no logical argument."
-			]
-		},
-		{
-			"name": "Nine of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A talking crow speaks to the party from a nearby perch. It warns of grave danger ahead, but when questions responds only with cawing. It is not a Beast for purposes of spells."
-			]
-		},
-		{
-			"name": "Ten of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A demon stone sat alone in a lightning-struck clearing. It crackles with electrical energy. The bearer may spend one hit die bleeding into the stone to summon a Quasit. The quasit does the summoner’s bidding for 1 minute before the magic wears off and it becomes hostile to the party."
-			]
-		},
-		{
-			"name": "Page of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Ignacious Horatio Winterbottom, a demon fanboy, is seeking to recruit new assistants. He wishes to open a portal to the abyss and summon forth a quasit to study. He asks the party for their help getting the candles proper and dribbly."
-			]
-		},
-		{
-			"name": "Knight of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"The ghost of Celerotas, an old scholar walks along the road. He is morose, head down, watching his bare feet pad against the stones. If hailed, he will ask of news, before mentioning his perfect memory. If the party give him information, he will give them information."
-			]
-		},
-		{
-			"name": "Queen of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Astarte, an angel of war appears to the party. She is riding a chariot with mighty horses. She tells the party they are her levies and they have been raised for war against the demons. They must come with her, unless they can convince her otherwise."
-			]
-		},
-		{
-			"name": "King of Pentacles",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-					},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A well-dressed man in fine nobles clothes sits on a rock enjoying a glass of deep red wine. He is happy to see a group of such capable adventurers, and says “perhaps we can help each other”. He offers a trade: in exchange for fealty, he has the power to hold back death. He is Ashmedai, the lord of hell. He revels in games and deals."
-			]
-		},
-		{
-			"name": "Ace of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An ancient underground soulforge has been exposed by a rockslide. Sensing people nearby it asks what they want. It can produce one mundane item. Whoever asks first gets their wish. They collapse, dead, and their soul is imbued in the item."
-			]
-		},
-		{
-			"name": "Two of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A rare crystal embedded in rock, it glows faintly blue, pulsing. Spending 1 minute in its vicinity inflicts you with {@disease spellblight}.",
-				{
-					"type": "inset",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Duration",
-							"entries": [
-								"Two adventures"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Transmission",
-							"entries": [
-								"Being affected by spells cast by somebody afflicted with the spellblight."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Prevention",
-							"entries": [
-								"Don't cast spells when you suffer the symptoms. Some protective runes or talismans can negate the energy."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Detection",
-							"entries": [
-								"Would show up as magical when Detect Magic is cast. Possibly showing every school of magic, or school of magic last cast by the user.",
-								"Identify malfunctions and shows a spell that is obviously not the spell you're affected by."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Treatment",
-							"entries": [
-								"Herbalists / Apothecaries / Potions"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Cure",
-							"entries": [
-								"Lesser Restoration in Stage 1.",
-								"Greater Restoration in Stage 2.",
-								"Cures itself after two adventures."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Stage 1",
-							"entries": [
-								"Headaches and tinnitus.",
-								"Cannot cast spells at your highest spell slot level, but can use higher level spell slots to cast at a lower level."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Stage 2 - After one adventure",
-							"entries": [
-								"Vertigo - Disadvantage on Dexterity Checks and Saving Throws.",
-								"When you cast a levelled spell, roll a Constitution Saving Throw, DC of 10 + the level of the spell (cantrips are level 0). On a failure, the spell fizzles out, costing the spell slot and having no effect."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Cured - After two adventures",
-							"entries": []
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Three of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A dragonborn sorcerer, Embaldo, has created a fortress using Mighty Fortress in which to monitor the area and sally forth for alchemical ingredients. The problem is, it’s right in the way of the path, blocking the whole thing."
-			]
-		},
-		{
-			"name": "Four of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A grove in which a magical idol causes all creatures to live in peace with each other. The carnivores are emaciated and dying. The party cannot harm any creatures while in the area."
-			]
-		},
-		{
-			"name": "Five of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A rock altar engraved with magical runes, on which rests a wand, hovering slightly. The runes on the rock spell out “Here sits the wand of fireballs. Take it, if ye dare.” The want is an illusion, touching it causes your hand to pass right through and a heavy, dolorous bell sounds. An invisible illusionist wizard uses Major Image to make it look like a red dragon has landed at the altar. The dragon roars and breathes fire into the sky. Then, the wizard attacks from invisibility."
-			]
-		},
-		{
-			"name": "Six of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A wellspring of gold-tinged water that glows faintly. Drinking the water emboldens you and makes you glow gold. You are immune to the Frightened condition, have disadvantage on stealth checks, and emit dim light for 10 ft. The effects last for 24 hours. Bottled water glows for 1 day before fading and losing its power."
-			]
-		},
-		{
-			"name": "Seven of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An earth golem stands atop a high cliff and lobs boulders at the party."
-			]
-		},
-		{
-			"name": "Eight of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Wild magic in the area has made them all fleet of foot. This hex costs half the normal token cost (rounded up)."
-			]
-		},
-		{
-			"name": "Nine of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An old ruined church, but a wall of force blocks the entrance and all ground-floor windows. The climb is treacherous. On the altar rests a glowing rock, warm to the touch. While it is on your person, you are immune to extreme cold temperatures, but still take cold damage as normal."
-			]
-		},
-		{
-			"name": "Ten of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"The party come upon a bandit camp containing 4d4+4 bandits. The bandits have captured some people and intend to enslave them. They have horses and plenty of silver locked in a warchest. Note: Should be swords."
-			]
-		},
-		{
-			"name": "Page of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"The last courier of Gerakii’s broken courier’s guild brings a letter from the south, and has been tracking one party member for weeks. The letter purports to be from a rich relative “Aunt Prospera” who can unseal the PC’s inheritance (worth several thousand platinum) if they can only return a thousand gold pieces to her. It is a scam."
-			]
-		},
-		{
-			"name": "Knight of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An exiled and shamed witch, Peridora, who was accused of poisoning a lord’s son, and has been on the run ever since. She begs for food and drink and will reward a kind and merciful party with a portent of the future, one pre-known D20 they can substitute whenever they want that day."
-			]
-		},
-		{
-			"name": "Queen of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Gustav Holtz’s potion emporium. D6 random potions are on display. They can be bought for half the Buy a Magic Item price."
-			]
-		},
-		{
-			"name": "King of Wands",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A hedge wizard, Mannfred Blacksalt, who offers to cast one spell for free. It can be anything up to a 5th level spell slot. In exchange, he asks the party to share with him their tales."
-			]
-		},
-		{
-			"name": "Ace of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"The party hear the sounds of war and stumble into a clearing where two fey princes are in open combat over a priceless artefact, which appears to be a chipped bone china teapot."
-			]
-		},
-		{
-			"name": "Two of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Two lesbian swashbucklers, deeply in love, pull over the party and demand their money or their lives."
-			]
-		},
-		{
-			"name": "Three of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A thief has snuck into the camp last night and stolen something. Choose an item at random. It’s gone now. Perhaps there are tracks and the thief can be caught?"
-			]
-		},
-		{
-			"name": "Four of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An emaciated dog guards over the burial ground of an old knight. It refuses to leave the site of its old master, and growls and barks at any who approach. It will accept food, but cannot be convinced to leave."
-			]
-		},
-		{
-			"name": "Five of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A colony of rust monsters attack the party. 1d4 monsters at the start. 2 new monsters arrive every round."
-			]
-		},
-		{
-			"name": "Six of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A caravan offers to give the party a lift for as long as the party travel in the same direction in exchange for protection. They gain 3 tokens each day. Bandits attack the caravan 1d4 times. The caravan splits off after three days."
-			]
-		},
-		{
-			"name": "Seven of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A pair of ogres are arguing over who is strongest. They wrestle repeatedly, but would like the party’s opinion, too. If the party annoy them, they team up and decide to test it out by seeing who can kill the most humanoids."
-			]
-		},
-		{
-			"name": "Eight of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A woman in a cage calls for help from a carriage. The bandits who run the caravan severely warn the party not to intervene, and attack as soon as any do something suspicious."
-			]
-		},
-		{
-			"name": "Nine of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A berserker blocks the way with a great, cleaving greataxe. He challenges one party to single combat “for the glory of our ancestors”. He is difficult to intimidate and insults the party as cowards if they all attack."
-			]
-		},
-		{
-			"name": "Ten of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Pit trap. The spotter must make a DC 15 Perception check to spot it. It is cleverly engineered to not strike the first, but instead to drag in the heaviest party member or a cart. The pit is filled with poisoned spikes. Falling in deals 2d8 piercing + 4d4 poison damage and poisons the person who has fallen in."
-			]
-		},
-		{
-			"name": "Page of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An assassin from the Cult Imperator strikes the party. Has rogue powers and when bloodied, flees the fight. If captured or killed, reveals information about a random cult branch."
-			]
-		},
-		{
-			"name": "Knight of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"In a clearing, a group, The Wandering Bruise Society have met to host combat tournaments. Players can bet up to 50 silver on a contestant, and may enter the contest themselves. Two types are offered: groups or individuals."
-			]
-		},
-		{
-			"name": "Queen of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"A woman, Trela, is stood at the top of a high cliff, staring at the party. She has a sad demeanour and looks wistfully at the horizon. She has lost her partner to disease and this is where they are buried. It is an important place to her, it’s where they shared their first kiss. She would rather be alone but is happy to tell the party about things her partner used to do. Eventually, she smiles, and asks to be alone."
-			]
-		},
-		{
-			"name": "King of Swords",
-			"source": "GuildOfIcons",
-			"set": "Tarot of Encounters",
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/unknown.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"An exiled and shamed knight, Sir Horatio, who fled from a great battle, seeks the thrill of combat once more. If bested, he will offer his sword for a part of the journey."
-			]
-		}
-	],
-	"deck": [
-		{
-			"name": "Tarot of Encounters",
-			"source": "GuildOfIcons",
-			"srd":false,
-			"hasCardArt": false,
-			"back": {
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "decks/generic/back.webp"
-				},
-				"width": 411,
-				"height": 561
-			},
-			"entries": [
-				"Tarot of Encounters"
-			],
-			"cards": [
-				"King of Cups|Tarot of Encounters|GuildOfIcons",
-				"Queen of Cups|Tarot of Encounters|GuildOfIcons",
-				"Knight of Cups|Tarot of Encounters|GuildOfIcons",
-				"Page of Cups|Tarot of Encounters|GuildOfIcons",
-				"Ten of Cups|Tarot of Encounters|GuildOfIcons",
-				"Nine of Cups|Tarot of Encounters|GuildOfIcons",
-				"Eight of Cups|Tarot of Encounters|GuildOfIcons",
-				"Seven of Cups|Tarot of Encounters|GuildOfIcons",
-				"Six of Cups|Tarot of Encounters|GuildOfIcons",
-				"Five of Cups|Tarot of Encounters|GuildOfIcons",
-				"Four of Cups|Tarot of Encounters|GuildOfIcons",
-				"Three of Cups|Tarot of Encounters|GuildOfIcons",
-				"Two of Cups|Tarot of Encounters|GuildOfIcons",
-				"Ace of Cups|Tarot of Encounters|GuildOfIcons",
-				"King of Swords|Tarot of Encounters|GuildOfIcons",
-				"Queen of Swords|Tarot of Encounters|GuildOfIcons",
-				"Knight of Swords|Tarot of Encounters|GuildOfIcons",
-				"Page of Swords|Tarot of Encounters|GuildOfIcons",
-				"Ten of Swords|Tarot of Encounters|GuildOfIcons",
-				"Nine of Swords|Tarot of Encounters|GuildOfIcons",
-				"Eight of Swords|Tarot of Encounters|GuildOfIcons",
-				"Seven of Swords|Tarot of Encounters|GuildOfIcons",
-				"Six of Swords|Tarot of Encounters|GuildOfIcons",
-				"Five of Swords|Tarot of Encounters|GuildOfIcons",
-				"Four of Swords|Tarot of Encounters|GuildOfIcons",
-				"Three of Swords|Tarot of Encounters|GuildOfIcons",
-				"Two of Swords|Tarot of Encounters|GuildOfIcons",
-				"Ace of Swords|Tarot of Encounters|GuildOfIcons",
-				"King of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Queen of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Knight of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Page of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Ten of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Nine of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Eight of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Seven of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Six of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Five of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Four of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Three of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Two of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"Ace of Pentacles|Tarot of Encounters|GuildOfIcons",
-				"King of Wands|Tarot of Encounters|GuildOfIcons",
-				"Queen of Wands|Tarot of Encounters|GuildOfIcons",
-				"Knight of Wands|Tarot of Encounters|GuildOfIcons",
-				"Page of Wands|Tarot of Encounters|GuildOfIcons",
-				"Ten of Wands|Tarot of Encounters|GuildOfIcons",
-				"Nine of Wands|Tarot of Encounters|GuildOfIcons",
-				"Eight of Wands|Tarot of Encounters|GuildOfIcons",
-				"Seven of Wands|Tarot of Encounters|GuildOfIcons",
-				"Six of Wands|Tarot of Encounters|GuildOfIcons",
-				"Five of Wands|Tarot of Encounters|GuildOfIcons",
-				"Four of Wands|Tarot of Encounters|GuildOfIcons",
-				"Three of Wands|Tarot of Encounters|GuildOfIcons",
-				"Two of Wands|Tarot of Encounters|GuildOfIcons",
-				"Ace of Wands|Tarot of Encounters|GuildOfIcons"
-			]
-		}
-	],
 	"disease": [
 		{
 			"name": "Spellblight",
@@ -1380,6 +270,22 @@
 					]
 				},
 				"The bulette can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+			]
+		},
+		{
+			"name": "Entropy",
+			"source": "GuildOfIcons",
+			"lairActions": [
+				"When fighting inside the null zone, Entropy can invoke the ambient antimagic to take lair actions. On initiative count 20 (losing initiative ties), Entropy can take one lair action to cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Entropy targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers Entropy to the target. Whenever Entropy takes damage, the target must make a {@dc 15} Constitution saving throw. On a failed save, Entropy takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round.",
+						"{@dice 1d4} Xeg-Yi and {@dice 1d4} Xag-Ya join the battle.",
+						"All creatures must succeed on a {@dc 15} Constitution saving throw or take 18 ({@damage 4d8}) necrotic damage. Entropy regains 18 ({@dice 4d8}) hit points."
+					]
+				},
+				"Entropy can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
 			]
 		},
 		{
@@ -1597,7 +503,218 @@
 			]
 		}
 	],
+	"condition": [
+		{
+			"name": "Death",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"srd": false,
+			"basicRules": true,
+			"entries": [
+				"A creature with death has been doomed. The heroic tether that keeps their soul tied to the materium has been severed, and their time is limited.",
+				"Each time a creature gains one or more points of death, they must make a death saving throw. A creature takes a -1 penalty to death saving throws for each point of death they have.",
+				"Death saving throws do not reset for a creature while they have any points of death. A creature loses all points of death when they die.",
+				"If a creature with one or more points of death regains hit points, they may choose either to regain hit points or remove one point of death for every 10 hit points healed. If a creature loses their last point of death, their death saving throws reset unless they have 0 hit points.",
+				"If a creature fails 3 death saving throws before they lose all points of death, they die."
+			]
+		}
+	],
     "monster": [
+		{
+			"name": "Entropy (Lich Form)",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 225,
+				"formula": "30d8 + 90"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+7",
+				"int": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold",
+				"lightning"
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"prone"
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Entropy fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Null Zone Immunity",
+					"entries": [
+						"Entropy can cast spells in the null zone, and is immune to the null zone's effects."
+					]
+				},
+				{
+					"name": "Necrotic Absorption",
+					"entries": [
+						"Whenever Entropy is subjected to necrotic damage, it takes no damage and instead regains a number of hit points equal to the necrotic damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Weird (1/Day)",
+					"entries": [
+						"Drawing on the deepest fears of its prey, Entropy creates illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere must make a {@dc 15} Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on a Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage. On a successful save, the spell ends for that creature."
+					]
+				},
+				{
+					"name": "Power Word Pain [Recharge 6]",
+					"entries": [
+						"Entropy speaks a word of power that causes waves of intense pain to assail one creature it can see within 60 ft. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being {@condition charmed}.",
+						"While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a spell, it must first succeed on a {@dc 15} Constitution saving throw, or the casting fails and the spell is wasted.",
+						"A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends."
+					]
+				},
+				{
+					"name": "Multi-attack",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 60/120 ft., one target. {@h}7 ({@dice 2d6}) necrotic and 7 ({@damage 2d6}) psychic damage. A creature hit by this attack gains one point of {@condition death}."
+					]
+				},
+				{
+					"name": "Death Blast",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) necrotic damage. The target must succeed on a {@dc 15} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Paralyzing Touch",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) necrotic damage. The target must succeed on a {@dc 15} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Equal and Opposite",
+					"entries": [
+						"Trigger: When Entropy is hit by a spell that deals fire, lightning, force, or radiant damage. The origin of the damage must make a {@dc 15} Constitution saving throw or gain one point of {@condition death}."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Paralyzing Touch (2 actions)",
+					"entries": [
+						"Entropy uses Paralyzing Touch."
+					]
+				},
+				{
+					"name": "Death Blast",
+					"entries": [
+						"Entropy uses Death Blast.",
+						"Lair Actions When fighting inside the null zone, Entropy can invoke the ambient antimagic to take lair actions. On initiative count 20 (losing initiative ties), Entropy can take one lair action to cause one of the following effects: Entropy targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers Entropy to the target. Whenever Entropy takes damage, the target must make a {@dc 15} Constitution saving throw. On a failed save, Entropy takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round.",
+						"{@dice 1d4} Xeg-Yi and {@dice 1d4} Xag-Ya join the battle.",
+						"All creatures must succeed on a {@dc 15} Constitution saving throw or take 18 ({@damage 4d8}) necrotic damage. Entropy regains 18 ({@dice 4d8}) hit points.",
+						"The monster can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Entropy",
+				"source": "GuildOfIcons"
+			},
+			"traitTags": [
+				"Damage Absorption",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			]
+		},
 		{
 			"name": "Varixis",
 			"source": "GuildOfIcons",
