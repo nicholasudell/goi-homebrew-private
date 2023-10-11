@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1696991401
+		"dateLastModified": 1697040872
     },
 	"hazard": [
         {
@@ -520,6 +520,186 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Ruin (dragon form)",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"dragon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 270,
+				"formula": "20d12 + 140"
+			},
+			"speed": {
+				"walk": 15,
+				"climb": 10,
+				"fly": {
+					"number": 10,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 25,
+			"int": 16,
+			"wis": 13,
+			"cha": 21,
+			"save": {
+				"dex": "+8",
+				"con": "+12",
+				"wis": "+6",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+11"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Inactive",
+					"entries": [
+						"Ruin cannot move or take actions on its turn."
+					]
+				},
+				{
+					"name": "Reactive",
+					"entries": [
+						"Ruin always has its reaction available."
+					]
+				},
+				{
+					"name": "Necrotic Absorption",
+					"entries": [
+						"Whenever Ruin is subjected to necrotic damage, it takes no damage and instead regains a number of hit points equal to the necrotic damage dealt."
+					]
+				},
+				{
+					"name": "Null Zone Immunity",
+					"entries": [
+						"Ruin can create magical effects in the null zone, and is immune to the null zone's effects."
+					]
+				},
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When Ruin dies, it explodes in a burst of negative energy. Each creature within 30 ft. of it must make a Death Saving Throw."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Negative Energy Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) necrotic damage and the target takes one point of {@condition death|GuildOfIcons}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Psychic Backlash",
+					"entries": [
+						"Trigger: When a creature deals damage to Ruin. The creature must make a {@dc 18} Intelligence or Charisma saving throw or take 4 ({@damage 1d8}) psychic damage."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Consume Death (2 actions) [Recharge 5-6]",
+					"entries": [
+						"Ruin removes 1 point of {@condition death|GuildOfIcons} from each creature and regains 20 hit points for each token removed in this way."
+					]
+				},
+				{
+					"name": "Ravening Breath (3 actions) [Recharge 5-6]",
+					"entries": [
+						"Ruin exhales negative energy in a 60-foot cone. Each creature in that area must make a {@dc 20} Dexterity saving throw, taking 35 ({@damage 10d6}) necrotic damage and 2 points of Death on a failed save, or half as much damage and 1 point of Death on a successful one."
+					]
+				},
+				{
+					"name": "Negative Energy Claw (2 actions)",
+					"entries": [
+						"Ruin uses its Negative Energy Claw attack."
+					]
+				},
+				{
+					"name": "Dash (1 Action)",
+					"entries": [
+						"Ruin moves double its movement speed (30 ft.) during this legendary action."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Entropy",
+				"source": "GuildOfIcons"
+			},
+			"traitTags": [
+				"Damage Absorption",
+				"Death Burst"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
 		{
 			"name": "Entropy (Lich Form)",
 			"isNamedCreature": true,
