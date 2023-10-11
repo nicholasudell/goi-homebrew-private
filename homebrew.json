@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1696990811
+		"dateLastModified": 1696991110
     },
 	"hazard": [
         {
@@ -643,13 +643,13 @@
 				{
 					"name": "Multi-attack",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 60/120 ft., one target. {@h}7 ({@dice 2d6}) necrotic and 7 ({@damage 2d6}) psychic damage. A creature hit by this attack gains one point of {@condition death}."
+						"Entropy makes three death blast attacks. Each attack must target a different creature."
 					]
 				},
 				{
 					"name": "Death Blast",
 					"entries": [
-						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) necrotic damage. The target must succeed on a {@dc 15} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk rs} {@hit 7} to hit, range 60/120 ft., one target. {@h}7 ({@dice 2d6}) necrotic and 7 ({@damage 2d6}) psychic damage. A creature hit by this attack gains one point of {@condition death}."
 					]
 				},
 				{
@@ -677,11 +677,7 @@
 				{
 					"name": "Death Blast",
 					"entries": [
-						"Entropy uses Death Blast.",
-						"Lair Actions When fighting inside the null zone, Entropy can invoke the ambient antimagic to take lair actions. On initiative count 20 (losing initiative ties), Entropy can take one lair action to cause one of the following effects: Entropy targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers Entropy to the target. Whenever Entropy takes damage, the target must make a {@dc 15} Constitution saving throw. On a failed save, Entropy takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round.",
-						"{@dice 1d4} Xeg-Yi and {@dice 1d4} Xag-Ya join the battle.",
-						"All creatures must succeed on a {@dc 15} Constitution saving throw or take 18 ({@damage 4d8}) necrotic damage. Entropy regains 18 ({@dice 4d8}) hit points.",
-						"The monster can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row."
+						"Entropy uses Death Blast."
 					]
 				}
 			],
