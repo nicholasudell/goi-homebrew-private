@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1704831137
+		"dateLastModified": 1704831338
     },
 	"hazard": [
         {
@@ -968,7 +968,7 @@
 				"perception": "+4",
 				"stealth": "+10"
 			},
-			"passive": 13,
+			"passive": 14,
 			"resist": [
 				"poison"
 			],
