@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1704831338
+		"dateLastModified": 1705628967
     },
 	"hazard": [
         {
@@ -520,6 +520,368 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Dr. Tawnywinglongstare",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"owlin"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 143,
+				"formula": "22d8 + 44"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 12,
+			"wis": 14,
+			"cha": 20,
+			"save": {
+				"wis": "+5",
+				"cha": "+8"
+			},
+			"skill": {
+				"insight": "+8",
+				"perception": "+5",
+				"persuasion": "+11"
+			},
+			"passive": 15,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Owlin"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Countercharm",
+					"entries": [
+						"Allied creatures within 30 ft. have advantage on saving throws against {@condition frightened} or {@condition charmed}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Confusion (1/Day)",
+					"entries": [
+						"Tawny casts the spell {@spell Confusion}."
+					]
+				},
+				{
+					"name": "Enemies Abound {@recharge 5}",
+					"entries": [
+						"Tawny casts the spell {@spell Enemies Abound|XGE}"
+					]
+				},
+				{
+					"name": "Suggestion {@recharge 5}",
+					"entries": [
+						"Tawny casts {@spell Suggestion}"
+					]
+				},
+				{
+					"name": "Antagonize",
+					"entries": [
+						"Target must make a {@dc 16} Wisdom saving throw or take 10 ({@damage 4d4}) psychic damage and make one attack using a cantrip, ranged weapon, or melee weapon against a target of Tawny's choice within range."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Taunt",
+					"entries": [
+						"Tawny targets one creature within 30 feet of it. If the target can hear Tawny, the target must succeed on a {@dc 16} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Tawny's next turn."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"wisdom"
+			]
+		},		
+		{
+			"name": "Crackbeaksnowcrash",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"owlin"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				},
+				{
+					"ac": 20,
+					"from": [
+						"multiattack defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "21d8 + 42"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": 12,
+			"dex": 19,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 8,
+			"save": {
+				"dex": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"acrobatics": "+7"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Owlin"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Multiattack Defense",
+					"entries": [
+						"After getting hit by an attack, Crack Beak has 20 AC against all subsequent attacks made by the same creature for the rest of their turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Whirlwind Attack",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., all creatures within 5 ft. {@h}11 ({@damage 2d6 + 4}) slashing damage and the creature must succeed on a {@dc 15} Constitution saving throw or start bleeding. A bleeding creature takes 10 damage at the start of each of their turns and they can repeat the save at the end of each turn, ending the effect on a success."
+					]
+				},
+				{
+					"name": "Blunderbuss Volley (Holding Gun Only)",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., all targets within 20 ft. {@h}19 ({@damage 2d12 + 6}) piercing damage (+{@dice 1d8} for one target) and the target's movement speed is reduced by 10 ft. until the end of their next turn."
+					]
+				},
+				{
+					"name": "Entangle (concentration) {@recharge 4}",
+					"entries": [
+						"Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within 90 ft. For the duration, these plants turn the ground in the area into difficult terrain.",
+						"Creatures in the area must succeed on a {@dc 14} Strength saving throw or be {@condition restrained} by plants until the spell ends. A creature {@condition restrained} by the plants can use its action to make a {@dc 14} Strength check. On a success, it frees itself."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			]
+		},		
+		{
+			"name": "Blackclawstompsmasher",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"owlin"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 119,
+				"formula": "14d8 + 56"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "(giant ape only)"
+				},
+				"fly": {
+					"number": 80,
+					"condition": "(quetzalcoatlus only)"
+				}
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 18,
+			"int": 12,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"medicine": "+5",
+				"nature": "+4",
+				"perception": "+5"
+			},
+			"passive": 15,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"languages": [
+				"Common",
+				"Druidic",
+				"Owlin"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the Black Claw can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Rage",
+					"entries": [
+						"The Black Claw has advantage on Strength checks and Saving Throws."
+					]
+				},
+				{
+					"name": "Flyby (Quetzalcoatlus Form)",
+					"entries": [
+						"The Black Claw doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff (Owlin Form)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Bite (Quetzalcoatlus Form)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage. If the Black Claw flew 30 ft. toward the target before the hit, it takes an extra 10 ({@damage 3d6}) damage."
+					]
+				},
+				{
+					"name": "Multiattack (Giant Ape Form)",
+					"entries": [
+						"The Black Claw makes two fist attacks."
+					]
+				},
+				{
+					"name": "Fist (Giant Ape Form)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Wild Shape",
+					"entries": [
+						"The Black Claw turns into a Giant Ape if HP > 60 or a Quetzalcoatlus, or returns to Owlin form."
+					]
+				}
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"traitTags": [
+				"Flyby",
+				"Reckless"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DU"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH"
+			]
+		},
 		{
 			"name": "Xag-Ya",
 			"source": "GuildOfIcons",
