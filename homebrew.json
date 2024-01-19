@@ -767,8 +767,8 @@
 				}
 			],
 			"hp": {
-				"average": 119,
-				"formula": "14d8 + 56"
+				"average": 238,
+				"formula": "28d8 + 56"
 			},
 			"speed": {
 				"walk": 40,
@@ -793,10 +793,8 @@
 				"perception": "+5"
 			},
 			"passive": 15,
-			"resist": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
+			"vulnerable": [
+				"psychic"
 			],
 			"languages": [
 				"Common",
@@ -854,7 +852,7 @@
 				{
 					"name": "Wild Shape",
 					"entries": [
-						"The Black Claw turns into a Giant Ape if HP > 60 or a Quetzalcoatlus, or returns to Owlin form."
+						"The Black Claw turns into a Giant Ape if HP > 110 or a Quetzalcoatlus, or returns to Owlin form."
 					]
 				}
 			],
