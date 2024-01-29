@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1705685184
+		"dateLastModified": 1706488932
     },
 	"hazard": [
         {
@@ -740,7 +740,97 @@
 				"constitution",
 				"strength"
 			]
-		},		
+		},
+		{
+			"name": "Reginauth Strode, 3rd Transmutex of Cantlore University, Who May Or May Not Have Invented The Spell Control Weather",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"wizard"
+				]
+			},
+			"alignment": ["N"],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 13,
+			"int": 22,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"con": "+5",
+				"int": "+10"
+			},
+			"skill": {
+				"arcana": "+14"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Spellcaster",
+					"entries": [
+						"All of Reginauth Strode, 3rd Transmutex of Cantlore University, Who May Or May Not Have Invented The Spell Control Weather's abilities are considered cast spells with verbal and somatic components. His spell save DC is 18"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Control Weather? (1/Day)",
+					"entries": [
+						"Reginauth Strode attempts to cast {@spell Control Weather} but does not know the spell. He instead casts {@spell True Polymorph}, targeting one ally. Flip a coin. On a heads the target is transformed into a Regisaur. On a tails, the target is transformed into a chaise longue."
+					]
+				},
+				{
+					"name": "Control Weather?! (1/Day)",
+					"entries": [
+						"Reginauth Strode attempts to cast {@spell Control Weather} but does not know the spell. He instead casts {@spell Disintegrate}, targeting one enemy. Flip a coin. On a heads the spell's range is 120 ft. On a tails, the spell's range is 10 ft."
+					]
+				},
+				{
+					"name": "Control Weather!",
+					"entries": [
+						"Reginauth Strode attempts to cast {@spell Control Weather} but does not know the spell. Instead he releases a burst of arcane might.",
+						"{@atk ms,rs} {@hit 10} to hit, reach 5 ft. or range 120 ft., one target. {@h}28 ({@damage 4d10 + 6}) acid damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"A"
+			]
+		},			
 		{
 			"name": "Blackclawstompsmasher",
 			"source": "GuildOfIcons",
