@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1706488932
+		"dateLastModified": 1707237488
     },
 	"hazard": [
         {
@@ -830,7 +830,433 @@
 			"damageTags": [
 				"A"
 			]
-		},			
+		},
+		{
+			"name": "Goblin Swabby",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Minion",
+					"entries": [
+						"Damage from an attack that hits this creature or a failed saving throw instantly kills this creature. This creature's hit points return to maximum at the end of each action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"scimitar|phb",
+				"shortbow|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW"
+			]
+		},		
+		{
+			"name": "Capt'in Morgak",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 15
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 9,
+			"save": {
+				"dex": "+3",
+				"wis": "+3"
+			},
+			"skill": {
+				"athletics": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Morgak's Marauders",
+					"entries": [
+						"Capt'in Morgak's attacks are not made at disadvantage while it is {@condition poisoned}. At the start of each of its turns, it heals 10 hit points if it is {@condition poisoned}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Capt'in Morgak makes one longsword attack and then uses Step To It!"
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 7 ({@damage 2d6}) slashing damage if the target is adjacent to a goblin."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Step To It",
+					"entries": [
+						"Capt'in Morgak targets a friendly goblin within 60 ft. who can hear him. That creature uses its reaction to take one available action from its stat block."
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"longsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW"
+			]
+		},		
+		{
+			"name": "Cookie Sweets",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d6 + 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 18,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"fire",
+				"thunder"
+			],
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Morgak's Marauders",
+					"entries": [
+						"The goblin's attacks are not made at disadvantage while it is {@condition poisoned}. At the start of each of its turns, it heals 10 ({@dice 1d4 + 8}) hit points if it is {@condition poisoned}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bombchuck! {@recharge 4}",
+					"entries": [
+						"The goblin makes one Firebomb attack, one Stunbomb attack, and one Smokebomb attack."
+					]
+				},
+				{
+					"name": "Firebomb (Bombchuck only)",
+					"entries": [
+						"The goblin throws a lit powderkeg up to 60 ft. away. At the start of the goblin's next turn, the keg explodes. All creatures within 20 ft. must succeed on a {@dc 14} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failure and half damage on a success."
+					]
+				},
+				{
+					"name": "Smokebomb (Bombchuck only)",
+					"entries": [
+						"The goblin throws a damp powderkeg up to 60 ft. away. It explodes immediately, creating a fog cloud 20 ft. wide. The cloud persists until the end of the goblin's next turn or a strong wind blows it away."
+					]
+				},
+				{
+					"name": "Stunbomb (Bombchuck only)",
+					"entries": [
+						"The goblin throws a canister of white powder at a creature within 60 ft. The target must make a {@dc 14} Constitution saving throw or be Stunned until the end of the goblin's next turn."
+					]
+				},
+				{
+					"name": "Flaming Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			]
+		},		
+		{
+			"name": "Goblin Linerunner",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 44,
+				"formula": "8d6 + 16"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"swim": 20
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 14,
+			"int": 10,
+			"wis": 15,
+			"cha": 12,
+			"save": {
+				"dex": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"athletics": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Morgak's Marauders",
+					"entries": [
+						"The goblin's attacks are not made at disadvantage while it is {@condition poisoned}. At the start of each of its turns, it heals 10 ({@dice 1d4 + 8}) hit points if it is {@condition poisoned}."
+					]
+				},
+				{
+					"name": "Nimble Runner",
+					"entries": [
+						"The goblin can run along tight ropes without making an acrobatics check to avoid falling and it can take the Disengage or Dash action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goblin makes two shortbow attacks. The second attack has disadvantage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortbow|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},					
 		{
 			"name": "Blackclawstompsmasher",
 			"source": "GuildOfIcons",
@@ -2374,7 +2800,7 @@
 		},
 		{
 			"name": "Hannah Del'Haemr",
-			"source": "GuildofIcons",
+			"source": "GuildOfIcons",
 			"page": 0,
 			"size": [
 				"M"
@@ -2486,7 +2912,7 @@
 		},		
 		{
 			"name": "Karos Leitminster, King of Swords",
-			"source": "GuildofIcons",
+			"source": "GuildOfIcons",
 			"page": 0,
 			"size": [
 				"M"
@@ -2594,7 +3020,7 @@
 		},		
 		{
 			"name": "Wandwhine the Gnoll",
-			"source": "GuildofIcons",
+			"source": "GuildOfIcons",
 			"page": 0,
 			"size": [
 				"M"
