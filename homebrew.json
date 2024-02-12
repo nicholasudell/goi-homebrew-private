@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1707237488
+		"dateLastModified": 1707703683
     },
 	"hazard": [
         {
@@ -631,6 +631,84 @@
 			"savingThrowForced": [
 				"charisma",
 				"wisdom"
+			]
+		},
+		{
+			"name": "Starborn Private",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"starborn"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 8,
+			"cha": 10,
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Starborn"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Polymer Armour",
+					"entries": [
+						"The starborn has advantage on saving throws to reduce or avoid cold, fire, and lightning damage."
+					]
+				},
+				{
+					"name": "Minion",
+					"entries": [
+						"If a minion takes damage from an attack that hits it or from failing a saving throw, it dies. Its health restores to maximum at the end of every action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Storm Gauntlet",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) thunder damage and another enemy within 10 ft. takes 3 ({@damage 1d6}) lightning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"damageTags": [
+				"L",
+				"T"
+			],
+			"miscTags": [
+				"MW"
 			]
 		},		
 		{
