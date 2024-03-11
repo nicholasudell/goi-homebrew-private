@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1709225430
+		"dateLastModified": 1710184550
     },
 	"hazard": [
         {
@@ -520,6 +520,127 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Sir Horatio",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|PHB|plate}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"con": "+4",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+5",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Sir Horatio has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Great Weapon Fighting",
+					"entries": [
+						"Sir Horatio rerolls 1s or 2s on melee damage dice (included in the attacks)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sir Horatio makes two melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. Reroll any 1s and 2s. Choose one effect:",
+						"Trip - {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+						"Disarm - {@dc 13} Strength saving throw or drop their weapon.",
+						"Sweep - If this attack would hit creature within 5 ft. of target, deal ({@dice 1d8}) slashing."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+					]
+				},
+				{
+					"name": "Warden",
+					"entries": [
+						"Sir Horatio can make one Opportunity Attack per turn without using their reaction. He can make an opportunity attack when a creature moves in any direction except straight towards him or when a creature attempts to cast a spell while within 5 ft. of Sir Horatio."
+					]
+				}
+			],
+			"attachedItems": [
+				"greatsword|phb"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},		
 		{
 			"name": "Dr. Tawnywinglongstare",
 			"source": "GuildOfIcons",
