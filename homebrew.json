@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1710184550
+		"dateLastModified": 1715698991
     },
 	"hazard": [
         {
@@ -520,6 +520,380 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Mist",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 studded leather armor||+1 studded leather}",
+						"{@item +1 shield}"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 17,
+			"wis": 8,
+			"cha": 9,
+			"save": {
+				"dex": "+2"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "2",
+			"action": [
+				{
+					"name": "[1/day] Deploy Flamethrower Turret",
+					"entries": [
+						"Mist places her Flamethrower Turret in an unoccupied horizontal surface within 5 ft. It has AC 18, 20 HP, immunity to poison and psychic and all conditions. Its ability scores are all +0 and it heals {@dice 2d6} if mending is cast on it.",
+						"[2/day] Thunderwave. Mist casts {@spell Thunderwave} (save {@dc 13})"
+					]
+				},
+				{
+					"name": "Mending",
+					"entries": [
+						"Mist restores 7 ({@dice 2d6}) hit points to her Flamethrower Turret."
+					]
+				},
+				{
+					"name": "Light Hammer",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Activate Flamethrower Turret",
+					"entries": [
+						"The turret exhales fire in an adjacent 15-foot cone. Each creature must make a {@dc 13} Dexterity saving throw, taking 9 ({@damage 2d8}) fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. The turret can also walk or climb 15 ft. before or after this attack."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "[1/day] Shield",
+					"entries": [
+						"Mist casts {@spell Shield}"
+					]
+				}
+			],
+			"attachedItems": [
+				"light hammer|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},		
+		{
+			"name": "Perfect",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 18,
+			"con": 13,
+			"int": 10,
+			"wis": 15,
+			"cha": 11,
+			"save": {
+				"dex": "+6"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"cr": "2",
+			"action": [
+				{
+					"name": "[1/day] Charm Person",
+					"entries": [
+						"Perfect casts {@spell Charm Person} (save {@dc 12})",
+						"[2/day, conc.] Hunter's Mark. Perfect casts {@spell Hunter's Mark}."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Perfect makes two attacks with his Shortswords."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. Plus 3 ({@damage 1d6}) piercing damage if Hunter's Mark is active. Plus 2 ({@damage 1d4}) psychic damage if this is the first time this creature was hit by Perfect this round."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "[2/day] Bunny Hop",
+					"entries": [
+						"Perfect jumps 10 ft. without provoking opportunity attacks."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			]
+		},		
+		{
+			"name": "Dyrk",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "4d6 - 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 8,
+			"int": 10,
+			"wis": 13,
+			"cha": 15,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 20 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Swashbuckler",
+					"entries": [
+						"Dyrk is immune to opportunity attacks from any creature they have struck this turn. They don't need advantage on an attack if there are no other creatures within 5 ft. of them for Sneak Attack."
+					]
+				},
+				{
+					"name": "Defiant",
+					"entries": [
+						"Advantage on saves against {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 10 ({@damage 3d6}) piercing damage if the hit was a Sneak Attack."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "[2/day] Draconic Cry",
+					"entries": [
+						"Dyrk and allies have advantage on attack rolls against enemies within 10 ft. who could hear them until the start of Dyrk's next turn."
+					]
+				}
+			],
+			"attachedItems": [
+				"rapier|phb"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			]
+		},		
+		{
+			"name": "Honk",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 25,
+				"climb": 25
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 16,
+			"int": 8,
+			"wis": 11,
+			"cha": 8,
+			"passive": 10,
+			"resist": [
+				"piercing",
+				"bludgeoning",
+				"slashing damage while raging"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Rager",
+					"entries": [
+						"While raging, Honk has advantage on Strength checks and Strength saving throws and resistance to piercing, bludgeoning, and slashing damage."
+					]
+				},
+				{
+					"name": "Reckless Attacker",
+					"entries": [
+						"Honk can choose to attack with Advantage. If he does, all attacks on him have advantage until his next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "[1/turn, Raging only] Radiant Fury Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage plus 5 ({@damage 1d6 + 1}) radiant damage."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) slashing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "[2/day] Enter Rage",
+					"entries": [
+						"Honk enters Rage, permitting the Radiant Fury Greataxe attack and granting resistance to piercing, bludgeoning, and slashing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			]
+		},
 		{
 			"name": "Sir Horatio",
 			"isNamedCreature": true,
