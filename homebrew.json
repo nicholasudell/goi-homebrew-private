@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1715698991
+		"dateLastModified": 1726845158
     },
 	"hazard": [
         {
@@ -520,6 +520,171 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Nila Hornqvist, Obsessed",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30,
+				"swim": 30
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 16,
+			"int": 11,
+			"wis": 12,
+			"cha": 13,
+			"save": {
+				"dex": "+6"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Eyes",
+					"entries": [
+						"Nila has taken eyes. She starts with 3 eyes, and can use a reaction when she reduces a creature to 0 hit points to take one of their eyes. Her eyes power her legendary actions and improve the damage of her claw attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Nila makes two Claw attacks. It can replace one attack with spell or Weakening Gaze."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 3 ({@dice 1d6}) for each eye Nila has."
+					]
+				},
+				{
+					"name": "[C] Darkness",
+					"entries": [
+						"Nila casts {@spell Darkness|XPHB}"
+					]
+				},
+				{
+					"name": "[C] Heat Metal",
+					"entries": [
+						"Nila casts {@spell Heat Metal|XPHB}"
+					]
+				},
+				{
+					"name": "[C] Fear",
+					"entries": [
+						"Nila casts {@spell Fear|XPHB}"
+					]
+				},
+				{
+					"name": "Dispel Magic",
+					"entries": [
+						"Nila casts {@spell Dispel Magic|XPHB}"
+					]
+				},
+				{
+					"name": "Weakening Gaze",
+					"entries": [
+						"Nila targets one creature that it can see within 20 feet of it. The target must make a {@dc 13} Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Take Eye",
+					"entries": [
+						"If Nila reduces a creature to 0 hit points with her Claws, she can use her reaction to extract one of the creature's eyes. The creature permanently loses that eye, unless restored through Greater Restoration or similar magic."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "",
+					"entries": [
+						"Nila can take legendary actions, choosing from the options below. Taking legendary actions costs eyes, which she spends when she takes the action.",
+						"Claw [1 eye]. Nila makes one Claw attack.",
+						"Cast a spell [1 eye]. Nila uses the Heat Metal or {@spell Dispel Magic|XPHB} actions.",
+						"Maw Demon [X eyes]. Nila summons X Maw Demons in an unoccupied space within 60 ft."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},		
 		{
 			"name": "Mist",
 			"isNamedCreature": true,
