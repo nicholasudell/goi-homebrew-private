@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1726845158
+		"dateLastModified": 1728570361
     },
 	"hazard": [
         {
@@ -684,7 +684,165 @@
 			"savingThrowForced": [
 				"constitution"
 			]
-		},		
+		},
+		{
+			"name": "Death Consuming, Cadaver Collector",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"H"
+			],
+			"type": "construct",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 207,
+				"formula": "18d12 + 90"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "but 0 ft. while immobile"
+				}
+			},
+			"str": 21,
+			"dex": 14,
+			"con": 20,
+			"int": 5,
+			"wis": 11,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands all"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Immobile",
+					"entries": [
+						"The Collector cannot move, and it automatically fails Dexterity saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (bloodied only)",
+					"entries": [
+						"The Collector makes two Slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Paralyzing Breath {@recharge 5}",
+					"entries": [
+						"Constitution saving throw: {@dc 16}, all creatures in a 30-foot cone. {@actSaveFail} Target is {@condition paralyzed} for 1 minute (save ends)."
+					]
+				},
+				{
+					"name": "Summon Specters (1/Sr)",
+					"entries": [
+						"4 specters (without Sunlight Sensitivity) arise in unoccupied spaces within 15 feet of it. They act right after the Collector on the same initiative count and fight until they're destroyed. They disappear when the Collector is destroyed."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bloodied Rage",
+					"entries": [
+						"{@actTrigger} The Collector starts its turn bloodied and it has not yet used Bloodied Rage. Effect: The Collector rises from the mire. It loses its Immobile trait, its Summon Specters and Paralyzing Breath abilities recharge, and it gains its Multiattack action."
+					]
+				},
+				{
+					"name": "Reactive Slam",
+					"entries": [
+						"{@actTrigger} An enemy enters the Collector's reach on their turn. Effect: The Collector uses their Slam against them."
+					]
+				},
+				{
+					"name": "Summon Skeleton",
+					"entries": [
+						"{@actTrigger} A player ends their turn. Effect: A skeleton rises from a spot within 30 ft. of the Collector. It enters the initiative order at that point and takes its go immediately."
+					]
+				},
+				{
+					"name": "Summon Zombie",
+					"entries": [
+						"{@actTrigger} A player ends their turn. Effect: A zombie rises from a spot within 30 ft. of the Collector. It enters the initiative order at that point and takes its go immediately."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "",
+					"entries": [
+						"The Collector can take 4 reactions per round, though only one reaction per turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+		},
 		{
 			"name": "Mist",
 			"isNamedCreature": true,
