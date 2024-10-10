@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1728570361
+		"dateLastModified": 1728571462
     },
 	"hazard": [
         {
@@ -724,18 +724,16 @@
 				"darkvision 60 ft."
 			],
 			"passive": 10,
-			"resist": [
+			"immune": [
 				{
-					"resist": [
+					"immune": [
 						"bludgeoning",
 						"piercing",
 						"slashing"
 					],
 					"note": "from nonmagical attacks that aren't adamantine",
 					"cond": true
-				}
-			],
-			"immune": [
+				},
 				"necrotic",
 				"poison",
 				"psychic"
