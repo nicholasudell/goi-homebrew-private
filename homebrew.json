@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1728571462
+		"dateLastModified": 1736431894
     },
 	"hazard": [
         {
@@ -520,6 +520,151 @@
 		}
 	],
     "monster": [
+		{
+            "name": "Aranax, the baleful blue",
+            "group": [
+                "Chromatic Dragon"
+            ],
+            "source": "GuildOfIcons",
+            "page": 91,
+            "srd": false,
+            "size": [
+                "H"
+            ],
+            "type": "dragon",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 210,
+                "formula": "20d12 + 80"
+            },
+            "speed": {
+                "walk": 40,
+                "burrow": 20,
+                "fly": 100
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 19,
+            "int": 14,
+            "wis": 13,
+            "cha": 17,
+            "save": {
+                "dex": "+4",
+                "con": "+8",
+                "wis": "+5",
+                "cha": "+7"
+            },
+            "skill": {
+                "perception": "+9",
+                "stealth": "+4"
+            },
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "passive": 19,
+            "immune": [
+                "lightning"
+            ],
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "10",
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one Bite or Claw attack, uses its Static Bolts, and uses Thunder Blink."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage and the target is Grappled (escape {@dc 17})/"
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage plus 7 ({@damage 2d6}) lightning damage."
+                    ]
+                },
+                {
+                    "name": "Static Bolts",
+                    "entries": [
+                        "The dragon unleashes 5 electric bolts that each automatically hits a target within 60 ft. The target takes 3 ({@damage 1d6}) lightning damage."
+                    ]
+                },
+                {
+                    "name": "Thunder Blink",
+                    "entries": [
+                        "The dragon vanishes in a clap of thunder. Creatures within 20 ft. make a {@dc 16} Constitution saving throw, taking 16 ({@damage 2d10}) thunder damage on a failed save, or half as much on a success. The dragon then teleports 90 ft. to an unoccupied space it can see, bringing with it any Grappled creatures."
+                    ]
+                },
+                {
+                    "name": "{@recharge 5} Lightning Breath",
+                    "entries": [
+                        "The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 55 ({@damage 10d10}) lightning damage on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "(1/day) Static Barrage",
+                    "entries": [
+                        "The dragon unleashes 20 electric bolts. Each bolt strikes a target as if it were a magic missile, dealing 3 ({@damage 1d6}) lightning damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert",
+                "coastal"
+            ],
+            "dragonCastingColor": "blue",
+            "dragonAge": "young",
+            "soundClip": {
+                "type": "internal",
+                "path": "bestiary/blue-dragon.mp3"
+            },
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Breath Weapon",
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "L",
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW",
+                "RCH"
+            ],
+            "savingThrowForced": [
+                "dexterity"
+            ],
+            "hasToken": true,
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
 		{
 			"name": "Nila Hornqvist, Obsessed",
 			"isNamedCreature": true,
