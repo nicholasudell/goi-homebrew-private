@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1736431894
+		"dateLastModified": 1745071027
     },
 	"hazard": [
         {
@@ -520,6 +520,102 @@
 		}
 	],
     "monster": [
+		{
+			"name": "The Swarm of Xos-Hivex",
+			"isNamedCreature": true,
+			"source": "",
+			"page": 0,
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "beast",
+				"swarmSize": "S",
+				"tags": [
+					"insect"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 165,
+				"formula": "30d6 + 60"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 10,
+				"climb": 20
+			},
+			"str": 3,
+			"dex": 14,
+			"con": 14,
+			"int": 1,
+			"wis": 7,
+			"cha": 1,
+			"senses": [
+				"blindsight 10 ft. (blind beyond this radius)",
+				"tremorsense 30 ft."
+			],
+			"passive": 8,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Reinforcements",
+					"entries": [
+						"At the start of the swarm's turn, it gains 20 temporary hit points."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy multiple creatures' space and vice versa, and the swarm can move through any opening large enough for a Small insect. The swarm can't regain {@variantrule Hit Points|XPHB} or gain {@variantrule Temporary Hit Points|XPHB}, except through its Reinforcements trait."
+					]
+				},
+				{
+					"name": "Split or Join",
+					"entries": [
+						"On its turn, the Swarm can spend half its hit points to create a second swarm with half the original swarm's hit points. The second swarm loses the Reinforcements feature. If two swarms overlap spaces, they can join together. The combined swarm is a single creature with both of the original swarms' hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atkr m} {@hit 7} to hit, all enemies in the swarm's space. {@h}12 ({@damage 3d6 + 2}) Piercing damage. {@m}Half damage."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"T"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MA"
+			]
+		},
 		{
             "name": "Aranax, the baleful blue",
             "group": [
