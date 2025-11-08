@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1762615507
+		"dateLastModified": 1762615773
     },
 	"hazard": [
         {
@@ -522,7 +522,7 @@
     "monster": [
 		{
 			"name": "Storm Elemental",
-			"source": "",
+			"source": "GuildOfIcons",
 			"page": 0,
 			"size": [
 				"L"
@@ -546,24 +546,12 @@
 				},
 				"canHover": true
 			},
-			"str": {
-				"special": "14 (+2)"
-			},
-			"dex": {
-				"special": "20 (+5)"
-			},
-			"con": {
-				"special": "18 (+4)"
-			},
-			"int": {
-				"special": "6 (-2)"
-			},
-			"wis": {
-				"special": "10 (+0)"
-			},
-			"cha": {
-				"special": "6 (-2)"
-			},
+			"str": 14,
+			"dex": 20,
+			"con": 18,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -597,8 +585,12 @@
 				{
 					"name": "Thunderwave",
 					"entries": [
-						"All creatures in a 10 ft x 30 ft line {@dc 13} Strength save. {@actSaveFail} 14 ({@damage 2d8 + 5}) bludgeoning damage and knocked {@condition prone}. {@actSaveSuccess} half damage and not {@condition prone}.",
-						"{@spell Lightning Bolt|XPHB} (Recharge 4-6).",
+						"All creatures in a 10 ft x 30 ft line {@dc 13} Strength save. {@actSaveFail} 14 ({@damage 2d8 + 5}) bludgeoning damage and knocked {@condition prone}. {@actSaveSuccess} half damage and not {@condition prone}."
+					]
+				},
+				{
+					"name": "Lightning Bolt (Recharge 4-6)",
+					"entries": [
 						"All creatures in a 10 ft x 60 ft line {@dc 15} Dexterity save. {@actSaveFail} 36 ({@damage 8d8}) lightning damage. Half damage on success."
 					]
 				}
