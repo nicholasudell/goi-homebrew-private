@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1745071027
+		"dateLastModified": 1762615507
     },
 	"hazard": [
         {
@@ -520,6 +520,100 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Storm Elemental",
+			"source": "",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 114,
+				"formula": "12d10 + 48"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 90,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": {
+				"special": "14 (+2)"
+			},
+			"dex": {
+				"special": "20 (+5)"
+			},
+			"con": {
+				"special": "18 (+4)"
+			},
+			"int": {
+				"special": "6 (-2)"
+			},
+			"wis": {
+				"special": "10 (+0)"
+			},
+			"cha": {
+				"special": "6 (-2)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Auran"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Air Form",
+					"entries": [
+						"The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Thunderwave",
+					"entries": [
+						"All creatures in a 10 ft x 30 ft line {@dc 13} Strength save. {@actSaveFail} 14 ({@damage 2d8 + 5}) bludgeoning damage and knocked {@condition prone}. {@actSaveSuccess} half damage and not {@condition prone}.",
+						"{@spell Lightning Bolt|XPHB} (Recharge 4-6).",
+						"All creatures in a 10 ft x 60 ft line {@dc 15} Dexterity save. {@actSaveFail} 36 ({@damage 8d8}) lightning damage. Half damage on success."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AU"
+			],
+			"damageTags": [
+				"B",
+				"L"
+			]
+		},
 		{
 			"name": "The Swarm of Xos-Hivex",
 			"isNamedCreature": true,
