@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1762615773
+		"dateLastModified": 1769182427
     },
 	"hazard": [
         {
@@ -520,6 +520,516 @@
 		}
 	],
     "monster": [
+		{
+			"name": "Davide Smith, Biomancer",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with mage armor",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "15d8 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 17,
+			"con": 18,
+			"int": 20,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"wis": "+5",
+				"cha": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"lightning"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Davide casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell Mage Armor|XPHB} (included in AC)",
+						"{@spell Invisibility|XPHB}"
+					],
+					"daily": {
+						"2": [
+							"{@spell Lightning Bolt|XPHB} (level 5 version)",
+							"{@spell Magic Missile|XPHB} (level 5 version)"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				},
+				{
+					"name": "Protective Magic (3/Day)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Davide casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+					],
+					"daily": {
+						"3": [
+							"{@spell Counterspell|XPHB}",
+							"{@spell Shield|XPHB}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "reaction",
+					"hidden": [
+						"daily"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Davide makes two Twist Ray attacks."
+					]
+				},
+				{
+					"name": "Twist Ray",
+					"entries": [
+						"{@atk rs} {@hit 9} to hit, range 30/60 ft., one target. {@h}21 ({@damage 3d10 + 5}) force damage and the target must make a {@dc 17} Constitution save or be Dazed until the end of their next turn. A Dazed creature can use an action or a bonus action, but not both."
+					]
+				},
+				{
+					"name": "Baleful Eye [Must Have Third Eye]",
+					"entries": [
+						"Until the start of Davide's next turn, when a creature starts its turn within 30 ft. of Davide and can see him, Davide can choose to force the creature to make a {@dc 17} Wisdom saving throw or become {@condition frightened} until the end of their turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Mutagen",
+					"entries": [
+						"Davide Smith injects a concoction. Choose one of the effects, it ends at the start of his next turn:",
+						{
+							"type": "list",
+							"items": [
+								"Extra arm. Davide's Multiattack action gains one extra attack.",
+								"Extra leg. Davide takes the Dash action as part of this bonus action.",
+								"Extra eye. Davide gains Truesight for 60 ft and can use the Baleful Eye action."
+							]
+						}
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"L",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"RA"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			]
+		},
+		{
+			"name": "Frankenstein's Chimera",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 152,
+				"formula": "16d10 + 64"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 19,
+			"int": 3,
+			"wis": 14,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"lightning"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Two Heads",
+					"entries": [
+						"The Chimera rolls initiative twice and takes 2 turns each round. Its reaction is restored at the start of each of its turns."
+					]
+				},
+				{
+					"name": "It's ALIIIIIIIIVE.",
+					"entries": [
+						"When the Chimera takes lightning damage, it instead heals for that damage and can make one Claws attack on a creature within range."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The chimera makes two attacks: one with its horns, and one with its claws."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d12 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage and the target is Grabbed (escape {@dc 17})"
+					]
+				},
+				{
+					"name": "Terrible Flight [Recharge 4-6]",
+					"entries": [
+						"The Chimera spreads its wings and barrels forwards. All creatures in a 10 ft. wide, 30 ft. long line must make a Dexterity {@variantrule Saving Throw|XPHB}. {@actSaveFail} 18 ({@damage 4d8}) bludgeoning damage and knocked {@condition prone}. {@actSaveSuccess} 9 ({@damage 2d8}) bludgeoning damage and not {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Kick",
+					"entries": [
+						"{@actTrigger} The Chimera is damaged by an adjacent creature.",
+						"Effect: The Chimera deals 9 ({@damage 1d8 + 5}) bludgeoning damage to the triggering creature and shoves it 10 ft. away."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Frankenstein's Gryphon",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 10
+			},
+			"str": 17,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 14,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"lightning"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Headless Chicken",
+					"entries": [
+						"The first time the Gryphon receives critical slashing damage, or is bloodied, its head falls off and it becomes a whirlwind of body slams.",
+						"It can no longer take actions or reactions and its movement can only be in straight lines. The first time each turn a creature enters a 10 ft. emanation around the Gryphon or starts their turn there, they take 16 ({@damage 3d8 + 3}) Bludgeoning damage."
+					]
+				},
+				{
+					"name": "It's ALIIIIIIIIVE.",
+					"entries": [
+						"When the Gryphon takes lightning damage, it instead heals for that damage and its movement speed is increased by 10 ft. until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Gryphon makes two Gore attacks."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the Gryphon moved at least 10 ft. in a straight line immediately before this attack, the target takes an additional 9 ({@damage 2d8}) bludgeoning damage and is knocked {@condition Prone|XPHB}."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Frankenstein's Peryton",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 20
+			},
+			"str": 18,
+			"dex": 7,
+			"con": 18,
+			"int": 3,
+			"wis": 8,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"lightning"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Headless Chicken",
+					"entries": [
+						"The first time the Peryton receives critical slashing damage, or is bloodied, its head falls off and it becomes a whirlwind of body slams.",
+						"It can no longer take actions or reactions and its movement can only be in straight lines. The first time each turn a creature enters a 10 ft. emanation around the Peryton or starts their turn there, they take 22 ({@damage 4d8 + 4}) Bludgeoning damage."
+					]
+				},
+				{
+					"name": "It's ALIIIIIIIIVE.",
+					"entries": [
+						"When the Peryton takes lightning damage, it instead heals for that damage and its movement speed is increased by 10 ft. until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Peryton makes three Claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Frankenstein's Flamberge",
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "25d8 + 50"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 40
+			},
+			"str": 12,
+			"dex": 19,
+			"con": 14,
+			"int": 4,
+			"wis": 16,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"lightning"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Burning",
+					"entries": [
+						"At the end of each of the Flamberge's turns, each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Flamberge takes 3 ({@damage 1d6}) Fire damage. Creatures and flammable objects in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} start burning."
+					]
+				},
+				{
+					"name": "Auto-Syringe",
+					"entries": [
+						"At the start of each of the Flamberge's turns while it is bloodied, a syringe applicator injects the Flamberge with healing potion. It gains 14 ({@dice 4d4 + 4}) hit points. A creature adjacent to the Flamberge can use their action to disable the syringe applicator with a {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check. On a failure, that creature takes 11 ({@damage 2d10}) fire damage."
+					]
+				},
+				{
+					"name": "It's ALIIIIIIIIVE",
+					"entries": [
+						"When the Flamberge takes lightning damage, it instead heals for that damage and its movement speed is increased by 10 ft. until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Flamberge makes three Claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
 		{
 			"name": "Storm Elemental",
 			"source": "GuildOfIcons",
