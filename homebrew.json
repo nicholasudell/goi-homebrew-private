@@ -13,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1769182427
+		"dateLastModified": 1769183101
     },
 	"hazard": [
         {
@@ -566,6 +566,14 @@
 				"lightning"
 			],
 			"cr": "9",
+			"trait": [
+				{
+					"name": "Overdose",
+					"entries": [
+						"When Davide is reduced to 0 hit points, he transforms into a Gibbering Mouther with +9 to hit and DC 17 saving throws."
+					]
+				}
+			],
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
