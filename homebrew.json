@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1790341111
+		"dateLastModified": 1790341313
 	},
 	"hazard": [
 		{
@@ -722,7 +722,7 @@
 				{
 					"name": "Contingent Step (1/Day)",
 					"entries": [
-						"Trigger:_ Eoin enters within 20 ft. of Inoltrare. _Effect:_ Inoltrare casts Misty Step."
+						"_Trigger:_ Eoin enters within 20 ft. of Inoltrare. _Effect:_ Inoltrare casts {@spell Misty Step|XPHB} without spending his reaction."
 					]
 				},
 				{
@@ -768,7 +768,7 @@
 				{
 					"name": "Mythic Spell (4/Day, 1/Round)",
 					"entries": [
-						"Inoltrare casts one of: {@spell Vision of Elapsing Eons|AU}, {@spell Detonate|AU}, {@spell Invulnerability|AU}, or @{spell Power Word Kill|XPHB} (targeting two creatures). The strain causes him to take 50 Force damage."
+						"Inoltrare casts one of: {@spell Vision of Elapsing Eons|AU}, {@spell Detonate|AU}, {@spell Invulnerability|AU}, or {@spell Power Word Kill|XPHB} (targeting two creatures). The strain causes him to take 50 Force damage."
 					]
 				},
 				{
