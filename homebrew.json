@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1790341313
+		"dateLastModified": 1790341483
 	},
 	"hazard": [
 		{
@@ -722,7 +722,7 @@
 				{
 					"name": "Contingent Step (1/Day)",
 					"entries": [
-						"_Trigger:_ Eoin enters within 20 ft. of Inoltrare. _Effect:_ Inoltrare casts {@spell Misty Step|XPHB} without spending his reaction."
+						"{@actTrigger} Eoin enters within 20 ft. of Inoltrare.{@actResponse} Inoltrare casts {@spell Misty Step|XPHB} without spending his reaction."
 					]
 				},
 				{
@@ -734,7 +734,7 @@
 				{
 					"name": "Moment of Prescience (Mythic only)",
 					"entries": [
-						"Inoltrare turns one of his D20s into a nat 20. Or an attacker's {@dice D20} into a 1. This consumes one of his Mythic Spell uses."
+						"Inoltrare turns one of his D20 Tests into a nat 20. Or an attacker's D20 Test into a nat 1. This consumes one of his Mythic Spell uses."
 					]
 				}
 			],
