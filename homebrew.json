@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1790341483
+		"dateLastModified": 1790342036
 	},
 	"hazard": [
 		{
@@ -694,7 +694,8 @@
 				{
 					"name": "Dying Wish (Mythic Trait; Recharges after a Short or Long Rest)",
 					"entries": [
-						"If Inoltrare is reduced to 0 hit points and can cast spells, he doesn't die or fall {@condition unconscious}. Instead, he casts {@spell Wish|XPHB}. His wish is dangerous: to gain 4 9th-level spell slots. The resulting slots take too much space in his head, reducing him to a feral beast of arcane energy. He regains 300 HP."
+						"If Inoltrare is reduced to 0 hit points and can cast spells, he doesn't die or fall {@condition unconscious}. Instead, he casts {@spell Wish|XPHB}. His wish is dangerous: to gain 4 9th-level spell slots. The resulting slots take too much space in his head, reducing him to a feral beast of arcane energy. He regains 200 HP.",
+						"While his mythic trait is active, Inoltrare takes 50 force damage at the start of each of his turns, which cannot be reduced in anyway. When Inoltrare dies, he explodes. Creatures within a 200 ft. radius must succeed on a {@save dex} {@dc 20}. {@actSaveFail} the total damage Inoltrare took from this trait as Force damage. {@actSaveSuccess} Half damage."
 					]
 				}
 			],
@@ -768,7 +769,7 @@
 				{
 					"name": "Mythic Spell (4/Day, 1/Round)",
 					"entries": [
-						"Inoltrare casts one of: {@spell Vision of Elapsing Eons|AU}, {@spell Detonate|AU}, {@spell Invulnerability|AU}, or {@spell Power Word Kill|XPHB} (targeting two creatures). The strain causes him to take 50 Force damage."
+						"Inoltrare casts one of: {@spell Vision of Elapsing Eons|AU}, {@spell Detonate|AU}, {@spell Invulnerability|AU}, or {@spell Power Word Kill|XPHB} (targeting two creatures)."
 					]
 				},
 				{
