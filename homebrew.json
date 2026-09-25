@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1790340499
+		"dateLastModified": 1790340732
 	},
 	"hazard": [
 		{
@@ -766,7 +766,7 @@
 				{
 					"name": "Mythic Spell (4/Day, 1/Round)",
 					"entries": [
-						"Inoltrare casts one of: _Vision of Elapsing Eons_, _Detonate_, _Invulnerability_, or _Power Word Kill_ (targeting two creatures). The strain causes him to take 50 Force damage."
+						"Inoltrare casts one of: {@spell Vision of Elapsing Eons|AU}, {@spell Detonate|AU}, {@spell Invulnerability|AU}, or @{spell Power Word Kill|XPHB} (targeting two creatures). The strain causes him to take 50 Force damage."
 					]
 				},
 				{
