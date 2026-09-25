@@ -1,55 +1,55 @@
 {
-    "_meta": {
-        "sources":[
-            {
-                "abbreviation": "GOI",
-                "json": "GuildOfIcons",
-                "full": "Guild of Icons",
-                "version": "1.0.13",
-                "authors": [
-                    "Nick"
-                ],
-                "url": "https://github.com/Udellgames/goi-homebrew-private"
-            }
-        ],
-        "dateAdded": 1537874753,
-		"dateLastModified": 1769183101
-    },
+	"_meta": {
+		"sources": [
+			{
+				"abbreviation": "GOI",
+				"json": "GuildOfIcons",
+				"full": "Guild of Icons",
+				"version": "1.0.13",
+				"authors": [
+					"Nick"
+				],
+				"url": "https://github.com/Udellgames/goi-homebrew-private"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1790340499
+	},
 	"hazard": [
-        {
-            "name":"Stirge Hivemouth",
-            "source": "GuildOfIcons",
-            "trapHazType": "GEN",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Stirge spawner.",
-                    "entries": [
-                        "Each round, at initiative 20 (losing all ties), the Stirge Hivemouth creates one new {@creature Stirge Bloodletter|GuildOfIcons} in its space."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Collapsible.",
-                    "entries": [
-                        "If the hivemouth takes 10 or more points of damage in one round, it collapses, preventing it from using the Stirge Spawner ability."
-                    ]
-                }
-            ]
-        }
-    ],
+		{
+			"name": "Stirge Hivemouth",
+			"source": "GuildOfIcons",
+			"trapHazType": "GEN",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Stirge spawner.",
+					"entries": [
+						"Each round, at initiative 20 (losing all ties), the Stirge Hivemouth creates one new {@creature Stirge Bloodletter|GuildOfIcons} in its space."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Collapsible.",
+					"entries": [
+						"If the hivemouth takes 10 or more points of damage in one round, it collapses, preventing it from using the Stirge Spawner ability."
+					]
+				}
+			]
+		}
+	],
 	"item": [
 		{
-            "name": "Perfect Mirror Metal Cube",
-            "source": "GuildOfIcons",
-            "tier": "major",
-            "rarity": "rare",
-            "wondrous": true,
-            "charges": 36,
-            "entries": [
-                "This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d10 expended charges daily at dawn.",
-                "You can use an action to press one of the cube's faces. Each face has a different effect as shown in the Cube Faces table. If the cube has insufficient charges remaining, nothing happens.",
-                "Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for one minute, until you use an action to press the cube's sixth face, or the cube runs out of charges.",
+			"name": "Perfect Mirror Metal Cube",
+			"source": "GuildOfIcons",
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"charges": 36,
+			"entries": [
+				"This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d10 expended charges daily at dawn.",
+				"You can use an action to press one of the cube's faces. Each face has a different effect as shown in the Cube Faces table. If the cube has insufficient charges remaining, nothing happens.",
+				"Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for one minute, until you use an action to press the cube's sixth face, or the cube runs out of charges.",
 				"At the end of each of your turns, while the barrier is active, the cube loses charges based on the chosen face, as shown in the Cube Faces table.",
 				"You can change the barrier's effect by pressing a different face of the cube, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.",
 				{
@@ -132,39 +132,36 @@
 						]
 					]
 				}
-            ]
-        }
+			]
+		}
 	],
 	"magicvariant": [
 		{
-            "name": "Polymer Armor",
-            "type": "GV",
-            "requires": 
-            [
+			"name": "Polymer Armor",
+			"type": "GV",
+			"requires": [
 				{
 					"type": "MA"
 				},
-                {
+				{
 					"type": "HA"
 				}
 			],
-            "excludes": {
+			"excludes": {
 				"name": "Hide Armor"
 			},
-            "inherits": 
-            {
-                "namePrefix": "Polymer ",
-                "source": "GuildOfIcons",
-                "page": 69,
-                "srd": false,
-                "rarity": "rare",
-                "reqAttune": false,
-                "entries": 
-                [
-                    "You have advantage on saving throws to reduce or avoid cold, fire, and lightning damage while wearing this armor."
-                ]
-            }
-        }
+			"inherits": {
+				"namePrefix": "Polymer ",
+				"source": "GuildOfIcons",
+				"page": 69,
+				"srd": false,
+				"rarity": "rare",
+				"reqAttune": false,
+				"entries": [
+					"You have advantage on saving throws to reduce or avoid cold, fire, and lightning damage while wearing this armor."
+				]
+			}
+		}
 	],
 	"disease": [
 		{
@@ -307,19 +304,25 @@
 										{
 											"type": "entries",
 											"name": "1+ Army Of The Lost.",
-											"entries": ["The graves open and skeletons shamble from the dirt. Each {@creature skeleton} is a minion. There are 10 of them, and 10 more arrive each round."]
+											"entries": [
+												"The graves open and skeletons shamble from the dirt. Each {@creature skeleton} is a minion. There are 10 of them, and 10 more arrive each round."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "2 Stitch Flesh, Knit Bone.",
-											"entries": [" Merrifryth destroys 5 skeletons and raises in their place a {@creature Skeletal Juggernaut}."]
+											"entries": [
+												" Merrifryth destroys 5 skeletons and raises in their place a {@creature Skeletal Juggernaut}."
+											]
 										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Conditions to proceed:",
-									"entries": ["Take out the skeletal juggernaut." ]
+									"entries": [
+										"Take out the skeletal juggernaut."
+									]
 								}
 							]
 						},
@@ -334,29 +337,39 @@
 										{
 											"type": "entries",
 											"name": "1 Great Heights Begat Great Falls.",
-											"entries": ["A sweeping wind threatens to push the party off the highest point on Wark and into the Glarus desert below. The desert is 2,000 ft. down. It will take 4 rounds to land."]
+											"entries": [
+												"A sweeping wind threatens to push the party off the highest point on Wark and into the Glarus desert below. The desert is 2,000 ft. down. It will take 4 rounds to land."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "2 The Earth Shook And Groaned.",
-											"entries": ["The spire begins to crumble underfoot. All non-falling creatures must make a Dexterity saving throw or fall {@condition prone}."]
+											"entries": [
+												"The spire begins to crumble underfoot. All non-falling creatures must make a Dexterity saving throw or fall {@condition prone}."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "3 Rock Tore Asunder.",
-											"entries": ["The Wark spire shears, and half the spire falls into the desert below. It is a {@dc 20} dexterity saving throw to grab a safe ledge and climb up. Otherwise, a falling character takes 21 ({@damage 6d6}) bludgeoning damage from the rocks as they start to fall."]
+											"entries": [
+												"The Wark spire shears, and half the spire falls into the desert below. It is a {@dc 20} dexterity saving throw to grab a safe ledge and climb up. Otherwise, a falling character takes 21 ({@damage 6d6}) bludgeoning damage from the rocks as they start to fall."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "4 The Sands Offered Their Condolences.",
-											"entries": ["Those who have still been falling take 70 ({@damage 20d6}) bludgeoning damage. The desert sands are whipped up by the wind and blind everybody."]
+											"entries": [
+												"Those who have still been falling take 70 ({@damage 20d6}) bludgeoning damage. The desert sands are whipped up by the wind and blind everybody."
+											]
 										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Conditions to proceed:",
-									"entries": ["Cause Merrifryth to fall, or rescue all falling characters."]
+									"entries": [
+										"Cause Merrifryth to fall, or rescue all falling characters."
+									]
 								}
 							]
 						},
@@ -371,29 +384,39 @@
 										{
 											"type": "entries",
 											"name": "The people are real.",
-											"entries": ["They didn't exist before now, but they are real now."]
+											"entries": [
+												"They didn't exist before now, but they are real now."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Find Merrifryth.",
-											"entries": ["He's using {@spell Disguise Self} to seem taller than he is. Detect magic can find him unless he has time to use Nystul's Mystic Aura to hide that, too. He's taken the form of a female wood elf wearing a panther mask. Merrifryth won't hide away, he enjoys the game. He will come over to the party and offer to help."]
+											"entries": [
+												"He's using {@spell Disguise Self} to seem taller than he is. Detect magic can find him unless he has time to use Nystul's Mystic Aura to hide that, too. He's taken the form of a female wood elf wearing a panther mask. Merrifryth won't hide away, he enjoys the game. He will come over to the party and offer to help."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Constantly moving.",
-											"entries": ["Even if they catch sight of somebody, the constant pirouetting and turning make it difficult to follow, like a cup game on the side of the road."]
+											"entries": [
+												"Even if they catch sight of somebody, the constant pirouetting and turning make it difficult to follow, like a cup game on the side of the road."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Poison.",
-											"entries": ["The poison deals one character 18 ({@damage 4d8}) damage at the start of every round. Keep in initiative order for this. There is no save, only the antidote which Merrifryth has, or some other fix the players come up with."]
+											"entries": [
+												"The poison deals one character 18 ({@damage 4d8}) damage at the start of every round. Keep in initiative order for this. There is no save, only the antidote which Merrifryth has, or some other fix the players come up with."
+											]
 										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Conditions to proceed:",
-									"entries": ["Find Merrifryth or cure the poison."]
+									"entries": [
+										"Find Merrifryth or cure the poison."
+									]
 								}
 							]
 						},
@@ -408,39 +431,53 @@
 										{
 											"type": "entries",
 											"name": "Caldera",
-											"entries": ["The centre of the map is a searing caldera of liquid fire. Any creature falling in is subjected to 90 ({@damage 20d8}) fire damage."]
+											"entries": [
+												"The centre of the map is a searing caldera of liquid fire. Any creature falling in is subjected to 90 ({@damage 20d8}) fire damage."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "1. Tempest Of Stone",
-											"entries": ["All creatures on the ground {@dc 20} Dexterity saving throw or knocked {@condition prone}"]
+											"entries": [
+												"All creatures on the ground {@dc 20} Dexterity saving throw or knocked {@condition prone}"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "1. Lava Snakes",
-											"entries": ["10 {@creature Fire Snake}s crawl out of the caldera and join initiative on Merrifryth's side. They are minions."]
+											"entries": [
+												"10 {@creature Fire Snake}s crawl out of the caldera and join initiative on Merrifryth's side. They are minions."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "2. Magma Plumes.",
-											"entries": ["Jet from the magma caldera. All creatures {@dc 20} Dexterity saving throw or 36 ({@damage 8d8}) fire damage."]
+											"entries": [
+												"Jet from the magma caldera. All creatures {@dc 20} Dexterity saving throw or 36 ({@damage 8d8}) fire damage."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "2. The Time To Flee Was Five Minutes Ago.",
-											"entries": ["The Caldera's magma level rises 10 feet. It is now close to overflowing."]
+											"entries": [
+												"The Caldera's magma level rises 10 feet. It is now close to overflowing."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "3. Eruption.",
-											"entries": ["The caldera's magma level bursts its banks, washing everybody on the ground in magma. There is no save. 45 ({@damage 10d8}) fire damage."]
+											"entries": [
+												"The caldera's magma level bursts its banks, washing everybody on the ground in magma. There is no save. 45 ({@damage 10d8}) fire damage."
+											]
 										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Conditions to proceed:",
-									"entries": ["Activate Merrifryth's Mythic Trait."]
+									"entries": [
+										"Activate Merrifryth's Mythic Trait."
+									]
 								}
 							]
 						},
@@ -455,45 +492,60 @@
 										{
 											"type": "entries",
 											"name": "1. The Stars. By The Gods, The Stars.",
-											"entries": [" Merrifryth pulls a star from the night sky, crushes it in his hand, and whispers an incantation (counts as a spell, counterable). Merrifryth gains a ninth-level spell slot and can use it only to cast {@spell Prismatic Wall}."]
+											"entries": [
+												" Merrifryth pulls a star from the night sky, crushes it in his hand, and whispers an incantation (counts as a spell, counterable). Merrifryth gains a ninth-level spell slot and can use it only to cast {@spell Prismatic Wall}."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "1. I Know That Hand, It Is My Own.",
-											"entries": ["Merrifryth renders every Merrifryth item inert. They lose all their magical abilities and become mundane objects."]
+											"entries": [
+												"Merrifryth renders every Merrifryth item inert. They lose all their magical abilities and become mundane objects."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "2. Breath of Creation.",
-											"entries": ["The winds of creation rush through Merrifryth, restoring 14 ({@dice 4d6}) hit points."]
+											"entries": [
+												"The winds of creation rush through Merrifryth, restoring 14 ({@dice 4d6}) hit points."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "2. Tempus Fugit.",
-											"entries": ["A red mote of creation coalesces over every PC. It forms the number 3. At the start of each turn after this, it counts down."]
+											"entries": [
+												"A red mote of creation coalesces over every PC. It forms the number 3. At the start of each turn after this, it counts down."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "3. Supernova.",
-											"entries": ["Merrifryth hurls a mote of creation at the party. It explodes in prismatic light, dealing 4 ({@dice 1d8}) each of necrotic, radiant, acid, thunder, lightning, cold, poison, fire, and force damage to all creatures."]
+											"entries": [
+												"Merrifryth hurls a mote of creation at the party. It explodes in prismatic light, dealing 4 ({@dice 1d8}) each of necrotic, radiant, acid, thunder, lightning, cold, poison, fire, and force damage to all creatures."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "4. A Hole In Creation.",
-											"entries": [" Merrifryth calls forth the darkstar, a hungry, writhing mass of blackness that draws in the players and crushes them. {@dc 20} Strength saving throw or take 36 ({@damage 8d8}) force damage."]
+											"entries": [
+												" Merrifryth calls forth the darkstar, a hungry, writhing mass of blackness that draws in the players and crushes them. {@dc 20} Strength saving throw or take 36 ({@damage 8d8}) force damage."
+											]
 										},
 										{
 											"type": "entries",
 											"name": "5. Tempus Fugit",
-											"entries": ["The motes of red light over each character's head ticks down to 0. Merrifryth casts {@spell Power Word Kill}, targeting every character."]
+											"entries": [
+												"The motes of red light over each character's head ticks down to 0. Merrifryth casts {@spell Power Word Kill}, targeting every character."
+											]
 										}
-
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Conditions to proceed:",
-									"entries": ["Kill Merrifryth."]
+									"entries": [
+										"Kill Merrifryth."
+									]
 								}
 							]
 						}
@@ -519,7 +571,235 @@
 			]
 		}
 	],
-    "monster": [
+	"monster": [
+		{
+			"name": "Inoltrare, Liar King",
+			"isNamedCreature": true,
+			"source": "GuildOfIcons",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 340,
+				"formula": "40d8 + 160"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 18,
+			"int": 18,
+			"wis": 24,
+			"cha": 22,
+			"save": {
+				"con": "+10",
+				"wis": "+13",
+				"cha": "+12"
+			},
+			"passive": 17,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed"
+					],
+					"note": "(with Mind Blank)",
+					"cond": true
+				},
+				{
+					"conditionImmune": [
+						"paralyzed"
+					],
+					"note": "(with Freedom of Movement)",
+					"cond": true
+				},
+				{
+					"conditionImmune": [
+						"restrained"
+					],
+					"note": "(with Freedom of Movement)",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Common plus five other languages"
+			],
+			"cr": "20",
+			"gear": [
+				"Staff of the Magi|XDMG",
+				"Ruby Weave Gem|FTD"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Inoltrare casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 20}):"
+					],
+					"will": [
+						"{@spell Dispel Magic|XPHB}",
+						"{@spell Fireball|XPHB} (5th level)",
+						"{@spell Lightning Bolt|XPHB} (5th level)"
+					],
+					"daily": {
+						"1e": [
+							"{@spell Dominate Person|XPHB}",
+							"{@spell Forcecage|XPHB}",
+							"{@spell Prismatic Wall|XPHB}",
+							"{@spell Mass Suggestion|XPHB} (\"You're obviously irrational. Do everyone a favour and turn yourself in to the guards, spend the day in the drunk tank.\")"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If Inoltrare fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Foresight",
+					"entries": [
+						"Inoltrare has advantage on all {@dice D20} tests. Enemies have disadvantage on all attacks against him. This effect is a 9th level spell."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"Inoltrare is unaffected by difficult terrain, and spells / magical effects can neither reduce his speed nor cause him to have the {@condition Paralyzed|XPHB} or {@condition Restrained|XPHB} conditions. He can spend 5 ft. of movement to escape from nonmagical restraints and the {@condition Grappled|XPHB} condition. This effect is a 5th-level spell."
+					]
+				},
+				{
+					"name": "Dying Wish (Mythic Trait; Recharges after a Short or Long Rest)",
+					"entries": [
+						"If Inoltrare is reduced to 0 hit points and can cast spells, he doesn't die or fall {@condition unconscious}. Instead, he casts {@spell Wish|XPHB}. His wish is dangerous: to gain 4 9th-level spell slots. The resulting slots take too much space in his head, reducing him to a feral beast of arcane energy. He regains 300 HP."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Inoltrare makes five Arcane Blast attacks."
+					]
+				},
+				{
+					"name": "Arcane Blast",
+					"entries": [
+						"{@atkr m,r} {@hit 12}, reach 5 ft. or range 150 ft. {@h}32 ({@damage 4d12 + 6}) Force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Absorb Spell",
+					"entries": [
+						"Inoltrare raises his staff and absorbs a spell targeting only him, storing it in the staff. He can choose this spell when he uses the Stored Spell Legendary Action. He cannot use this ability while the staff already holds a spell."
+					]
+				},
+				{
+					"name": "Contingent Step (1/Day)",
+					"entries": [
+						"Trigger:_ Eoin enters within 20 ft. of Inoltrare. _Effect:_ Inoltrare casts Misty Step."
+					]
+				},
+				{
+					"name": "Protective Magic (3/Day)",
+					"entries": [
+						"Inoltrare casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger."
+					]
+				},
+				{
+					"name": "Moment of Prescience (Mythic only)",
+					"entries": [
+						"Inoltrare turns one of his D20s into a nat 20. Or an attacker's {@dice D20} into a 1. This consumes one of his Mythic Spell uses."
+					]
+				}
+			],
+			"legendaryHeader": "Inoltrare can take 4 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Inoltrare regains spent legendary actions at the start of his turn.",
+			"legendary": [
+				{
+					"name": "Stored Spell (Costs 2 Actions)",
+					"entries": [
+						"Inoltrare casts the spell stored in his staff."
+					]
+				},
+				{
+					"name": "Misty Step",
+					"entries": [
+						"Inoltrare casts {@spell Misty Step|XPHB}"
+					]
+				},
+				{
+					"name": "Arcane Blast",
+					"entries": [
+						"Inoltrare uses Arcane Blast"
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Inoltrare's mythic trait is active, he can use the options below as legendary actions for 1 hour after using Dying Wish. He can also use his Moment of Prescience reaction."
+			],
+			"mythic": [
+				{
+					"name": "Mythic Spell (4/Day, 1/Round)",
+					"entries": [
+						"Inoltrare casts one of: _Vision of Elapsing Eons_, _Detonate_, _Invulnerability_, or _Power Word Kill_ (targeting two creatures). The strain causes him to take 50 Force damage."
+					]
+				},
+				{
+					"name": "Unbridled Power (Costs 2 Actions) (1/Round)",
+					"entries": [
+						"Inoltrare casts {@spell Dispel Magic|XPHB}, {@spell Fireball|XPHB}, or {@spell Lightning Bolt|XPHB} (5th level each)"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity"
+			]
+		},
 		{
 			"name": "Davide Smith, Biomancer",
 			"isNamedCreature": true,
@@ -1221,150 +1501,150 @@
 			]
 		},
 		{
-            "name": "Aranax, the baleful blue",
-            "group": [
-                "Chromatic Dragon"
-            ],
-            "source": "GuildOfIcons",
-            "page": 91,
-            "srd": false,
-            "size": [
-                "H"
-            ],
-            "type": "dragon",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 210,
-                "formula": "20d12 + 80"
-            },
-            "speed": {
-                "walk": 40,
-                "burrow": 20,
-                "fly": 100
-            },
-            "str": 21,
-            "dex": 10,
-            "con": 19,
-            "int": 14,
-            "wis": 13,
-            "cha": 17,
-            "save": {
-                "dex": "+4",
-                "con": "+8",
-                "wis": "+5",
-                "cha": "+7"
-            },
-            "skill": {
-                "perception": "+9",
-                "stealth": "+4"
-            },
-            "senses": [
-                "blindsight 30 ft.",
-                "darkvision 120 ft."
-            ],
-            "passive": 19,
-            "immune": [
-                "lightning"
-            ],
-            "languages": [
-                "Common",
-                "Draconic"
-            ],
-            "cr": "10",
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The dragon makes one Bite or Claw attack, uses its Static Bolts, and uses Thunder Blink."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage and the target is Grappled (escape {@dc 17})/"
-                    ]
-                },
-                {
-                    "name": "Claw",
-                    "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage plus 7 ({@damage 2d6}) lightning damage."
-                    ]
-                },
-                {
-                    "name": "Static Bolts",
-                    "entries": [
-                        "The dragon unleashes 5 electric bolts that each automatically hits a target within 60 ft. The target takes 3 ({@damage 1d6}) lightning damage."
-                    ]
-                },
-                {
-                    "name": "Thunder Blink",
-                    "entries": [
-                        "The dragon vanishes in a clap of thunder. Creatures within 20 ft. make a {@dc 16} Constitution saving throw, taking 16 ({@damage 2d10}) thunder damage on a failed save, or half as much on a success. The dragon then teleports 90 ft. to an unoccupied space it can see, bringing with it any Grappled creatures."
-                    ]
-                },
-                {
-                    "name": "{@recharge 5} Lightning Breath",
-                    "entries": [
-                        "The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 55 ({@damage 10d10}) lightning damage on a failed save, or half as much damage on a successful one."
-                    ]
-                },
-                {
-                    "name": "(1/day) Static Barrage",
-                    "entries": [
-                        "The dragon unleashes 20 electric bolts. Each bolt strikes a target as if it were a magic missile, dealing 3 ({@damage 1d6}) lightning damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert",
-                "coastal"
-            ],
-            "dragonCastingColor": "blue",
-            "dragonAge": "young",
-            "soundClip": {
-                "type": "internal",
-                "path": "bestiary/blue-dragon.mp3"
-            },
-            "senseTags": [
-                "B",
-                "SD"
-            ],
-            "actionTags": [
-                "Breath Weapon",
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C",
-                "DR"
-            ],
-            "damageTags": [
-                "L",
-                "P",
-                "S"
-            ],
-            "miscTags": [
-                "AOE",
-                "MW",
-                "RCH"
-            ],
-            "savingThrowForced": [
-                "dexterity"
-            ],
-            "hasToken": true,
-            "hasFluff": true,
-            "hasFluffImages": true
-        },
+			"name": "Aranax, the baleful blue",
+			"group": [
+				"Chromatic Dragon"
+			],
+			"source": "GuildOfIcons",
+			"page": 91,
+			"srd": false,
+			"size": [
+				"H"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d12 + 80"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 20,
+				"fly": 100
+			},
+			"str": 21,
+			"dex": 10,
+			"con": 19,
+			"int": 14,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+4",
+				"con": "+8",
+				"wis": "+5",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+9",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"immune": [
+				"lightning"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "10",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes one Bite or Claw attack, uses its Static Bolts, and uses Thunder Blink."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage and the target is Grappled (escape {@dc 17})/"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage plus 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Static Bolts",
+					"entries": [
+						"The dragon unleashes 5 electric bolts that each automatically hits a target within 60 ft. The target takes 3 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Thunder Blink",
+					"entries": [
+						"The dragon vanishes in a clap of thunder. Creatures within 20 ft. make a {@dc 16} Constitution saving throw, taking 16 ({@damage 2d10}) thunder damage on a failed save, or half as much on a success. The dragon then teleports 90 ft. to an unoccupied space it can see, bringing with it any Grappled creatures."
+					]
+				},
+				{
+					"name": "{@recharge 5} Lightning Breath",
+					"entries": [
+						"The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 55 ({@damage 10d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "(1/day) Static Barrage",
+					"entries": [
+						"The dragon unleashes 20 electric bolts. Each bolt strikes a target as if it were a magic missile, dealing 3 ({@damage 1d6}) lightning damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"coastal"
+			],
+			"dragonCastingColor": "blue",
+			"dragonAge": "young",
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/blue-dragon.mp3"
+			},
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
 		{
 			"name": "Nila Hornqvist, Obsessed",
 			"isNamedCreature": true,
@@ -1789,7 +2069,7 @@
 			"savingThrowForced": [
 				"dexterity"
 			]
-		},		
+		},
 		{
 			"name": "Perfect",
 			"isNamedCreature": true,
@@ -1880,7 +2160,7 @@
 				"MLW",
 				"MW"
 			]
-		},		
+		},
 		{
 			"name": "Dyrk",
 			"isNamedCreature": true,
@@ -1970,7 +2250,7 @@
 				"MLW",
 				"MW"
 			]
-		},		
+		},
 		{
 			"name": "Honk",
 			"isNamedCreature": true,
@@ -2180,7 +2460,7 @@
 			"savingThrowForced": [
 				"strength"
 			]
-		},		
+		},
 		{
 			"name": "Dr. Tawnywinglongstare",
 			"source": "GuildOfIcons",
@@ -2371,7 +2651,7 @@
 			"miscTags": [
 				"MW"
 			]
-		},		
+		},
 		{
 			"name": "Crackbeaksnowcrash",
 			"source": "GuildOfIcons",
@@ -2494,7 +2774,9 @@
 					"wizard"
 				]
 			},
-			"alignment": ["N"],
+			"alignment": [
+				"N"
+			],
 			"ac": [
 				12,
 				{
@@ -2659,7 +2941,7 @@
 				"MW",
 				"RW"
 			]
-		},		
+		},
 		{
 			"name": "Capt'in Morgak",
 			"isNamedCreature": true,
@@ -2773,7 +3055,7 @@
 				"MW",
 				"RW"
 			]
-		},		
+		},
 		{
 			"name": "Cookie Sweets",
 			"source": "GuildOfIcons",
@@ -2890,7 +3172,7 @@
 				"constitution",
 				"dexterity"
 			]
-		},		
+		},
 		{
 			"name": "Goblin Linerunner",
 			"source": "GuildOfIcons",
@@ -2995,7 +3277,7 @@
 			"miscTags": [
 				"RW"
 			]
-		},					
+		},
 		{
 			"name": "Blackclawstompsmasher",
 			"source": "GuildOfIcons",
@@ -3243,7 +3525,7 @@
 				"constitution",
 				"dexterity"
 			]
-		},		
+		},
 		{
 			"name": "Xeg-Yi",
 			"source": "GuildOfIcons",
@@ -3345,7 +3627,7 @@
 			"savingThrowForced": [
 				"dexterity"
 			]
-		},		
+		},
 		{
 			"name": "Ruin (dragon form)",
 			"isNamedCreature": true,
@@ -4085,7 +4367,7 @@
 					"name": "Eye Rays",
 					"entries": [
 						"The beholder shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
-						{	
+						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
@@ -4419,7 +4701,7 @@
 			"savingThrowForced": [
 				"charisma"
 			]
-		},		
+		},
 		{
 			"name": "Grounded of Wark",
 			"source": "GuildOfIcons",
@@ -4648,7 +4930,7 @@
 			"miscTags": [
 				"MW"
 			]
-		},		
+		},
 		{
 			"name": "Karos Leitminster, King of Swords",
 			"source": "GuildOfIcons",
@@ -4756,7 +5038,7 @@
 			"miscTags": [
 				"MW"
 			]
-		},		
+		},
 		{
 			"name": "Wandwhine the Gnoll",
 			"source": "GuildOfIcons",
@@ -5022,7 +5304,9 @@
 					"cond": true
 				},
 				{
-					"resist": ["fire"],
+					"resist": [
+						"fire"
+					],
 					"note": "in mythic form",
 					"cond": true
 				}
@@ -5131,7 +5415,7 @@
 				"grappled",
 				"prone"
 			]
-		},		
+		},
 		{
 			"name": "Deadwalker",
 			"source": "GuildOfIcons",
@@ -5432,7 +5716,7 @@
 			"conditionInflict": [
 				"prone"
 			]
-		},		
+		},
 		{
 			"name": "Zilx - Fontaine's Chosen",
 			"source": "GuildOfIcons",
@@ -5909,7 +6193,7 @@
 			"damageTags": [
 				"O"
 			]
-		},		
+		},
 		{
 			"name": "Silent Jelly",
 			"source": "GuildOfIcons",
@@ -6172,22 +6456,22 @@
 					"entries": [
 						"If Ansel is used as a villain, he can use his villain actions. One villain action can be taken per round, and must be taken after another creature has ended their turn. Each villain action can be taken only once per short rest, unless otherwise specified.",
 						{
-							"type":"entries",
-							"name":"Conjure Guardian.",
+							"type": "entries",
+							"name": "Conjure Guardian.",
 							"entries": [
 								"Ansel pulls his Brass Defender from a pocket dimension to an unoccupied space within 30ft. The Brass Defender acts immediately."
 							]
 						},
 						{
-							"type":"entries",
-							"name":"The Modern Icarus.",
+							"type": "entries",
+							"name": "The Modern Icarus.",
 							"entries": [
 								"Wings of brass protrude from the mantel's back. Until the end of Ansel's next turn, Ansel has a fly speed equal to 60 ft."
 							]
 						},
 						{
-							"type":"entries",
-							"name":"Arcane Artillery (2 uses).",
+							"type": "entries",
+							"name": "Arcane Artillery (2 uses).",
 							"entries": [
 								"A sheet of iron slides back on one of Ansel's shoulders, revealing a bank of 8 crystals. Each crystal launches into the air as a Magic Missile, homing in on and striking a target of Ansel's choice within 120 ft., dealing 3 ({@damage 1d4 + 1}) force damage. Unlike Magic Missile, these missiles do not need line of sight."
 							]
@@ -6520,7 +6804,6 @@
 				"MW"
 			]
 		},
-
 		{
 			"name": "Red Chromatic Shadow",
 			"source": "GuildOfIcons",
@@ -7152,7 +7435,7 @@
 			"miscTags": [
 				"MW"
 			]
-		},		
+		},
 		{
 			"name": "Gnoll Bowstrider",
 			"source": "GuildOfIcons",
@@ -8776,7 +9059,7 @@
 			"miscTags": [
 				"RW"
 			]
-		},		
+		},
 		{
 			"name": "Starborn Captain",
 			"source": "GuildOfIcons",
@@ -9023,6 +9306,5 @@
 				"incapacitated"
 			]
 		}
-		
 	]
 }
