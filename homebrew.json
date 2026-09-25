@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1790340732
+		"dateLastModified": 1790341111
 	},
 	"hazard": [
 		{
@@ -738,7 +738,9 @@
 					]
 				}
 			],
-			"legendaryHeader": "Inoltrare can take 4 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Inoltrare regains spent legendary actions at the start of his turn.",
+			"legendaryHeader": [
+				"Inoltrare can take 4 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Inoltrare regains spent legendary actions at the start of his turn."
+			],
 			"legendary": [
 				{
 					"name": "Stored Spell (Costs 2 Actions)",
